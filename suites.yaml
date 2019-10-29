@@ -1,0 +1,37 @@
+tools:
+- name: suite_dropletutils
+  owner: ebi-gxa
+  revisions:
+  - 7f8130ded316
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_sc3
+  owner: ebi-gxa
+  revisions:
+  - cd36bc141d39
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_scanpy_scripts
+  owner: ebi-gxa
+  revisions:
+  - 8762428ceab3
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_scater
+  owner: ebi-gxa
+  revisions:
+  - 5b51498baed9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_sccaf
+  owner: ebi-gxa
+  revisions:
+  - d2d5df2ffcb8
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_seurat
+  owner: ebi-gxa
+  revisions:
+  - f71f324eb179
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
