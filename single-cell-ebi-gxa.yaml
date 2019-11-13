@@ -8,6 +8,10 @@ tools:
   - name: dropletutils_read_10x
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
+    
+  - name: dropletutils_empty_drops
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_utils_viz'
 
   - name: gtf2gene_list
     owner: ebi-gxa
@@ -259,7 +263,14 @@ tools:
 
   - name: alevin
     owner: bgruening
-    revisions:
-    - 0a5258e41227
     tool_panel_section_label: RNA-Seq
-    tool_shed_url: toolshed.g2.bx.psu.edu
+    
+  - name: salmon_kallisto_mtx_to_10x
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_utils_viz'
+    
+  - name: droplet_barcode_plot
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_utils_viz'
+
+    
