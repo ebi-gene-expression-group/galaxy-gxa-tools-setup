@@ -1,360 +1,389 @@
----
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
-
-# https://raw.githubusercontent.com/usegalaxy-eu/usegalaxy-eu-tools/cb6d5ae0800990fa5756646c7f466df6ee8a0ad5/single-cell-ebi-gxa.yaml
 tools:
-  - name: dropletutils_read_10x
-    owner: ebi-gxa
-    revisions:
-    - d62a9aa0411e
-    tool_panel_section_id: 'hca_sc_utils_viz'
-
-  - name: gtf2gene_list
-    owner: ebi-gxa
-    revisions:
-    - b95e6a9bb15c
-    - e255c0e5dfca
-    - 040d4b3a19d5
-    - 247b439a78f7
-    - b6354c917ef9
-    tool_panel_section_id: 'hca_sc_utils_viz'
-
-  - name: retrieve_scxa
-    owner: ebi-gxa
-    revisions:
-    - cc21614b6693
-    - cd6b80f62fcc
-    tool_panel_section_id: 'hca_sc_get-scrna'
-
-  - name: hca_matrix_downloader
-    owner: ebi-gxa
-    revisions:
-    - c127d4124583
-    tool_panel_section_id: 'hca_sc_get-scrna'
-
-  - name: sc3_calc_biology
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-
-  - name: sc3_calc_consens
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-
-  - name: sc3_calc_dists
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-
-  - name: sc3_calc_transfs
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-#
-  - name: sc3_estimate_k
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-
-  - name: sc3_kmeans
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-
-  - name: sc3_prepare
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sc3_tools'
-
-  - name: scanpy_compute_graph
-    owner: ebi-gxa
-    revisions:
-    - 3d242b0d97d0
-    - e7fd6981c0f0
-    - 53e6944bd162
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_filter_cells
-    owner: ebi-gxa
-    revisions:
-    - 8e48fa9618c1
-    - c23d0ff783d4
-    - dcfb23758646
-    - 9f0ca1641ab2
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_filter_genes
-    owner: ebi-gxa
-    revisions:
-    - d1b97a5d5a8d
-    - 7aebd6265a97
-    - a797a810d7e9
-    - fa6c08064fc1
-    - 77fbe74247c2
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_find_cluster
-    owner: ebi-gxa
-    revisions:
-    - e232ea3fff07
-    - ce27ae8a36cd
-    - ee181563bae7
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_find_markers
-    owner: ebi-gxa
-    revisions:
-    - 71668dd2d47b
-    - c608fd80ec15
-    - af5e4efa9e66
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_find_variable_genes
-    owner: ebi-gxa
-    revisions:
-    - b089f4a55e6b
-    - 305d0cbe0ffd
-    - d88a29e2eba6
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_normalise_data
-    owner: ebi-gxa
-    revisions:
-    - f7322b68cc90
-    - e541f264fad2
-    - 378ea34bbf2a
-    - 1dda36e73482
-    - 059f8d2e8be1
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_parameter_iterator
-    owner: ebi-gxa
-    revisions:
-    - 1a30a61effea
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_plot_embed
-    owner: ebi-gxa
-    revisions:
-    - c63bc0b71865
-    - ddb20964072e
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_plot_trajectory
-    owner: ebi-gxa
-    revisions:
-    - f76e8237073a
-    - 3798ea6a5e21
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_read_10x
-    owner: ebi-gxa
-    revisions:
-    - 3faf577f3e40
-    - 572b6e3b2aff
-    - b021ae78ccb4
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_regress_variable
-    owner: ebi-gxa
-    revisions:
-    - 6c990f8ccad3
-    - eb6935434c1f
-    - 203fac3b1ba3
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_diffmap
-    owner: ebi-gxa
-    revisions:
-    - 34d65f2ccde3
-    - c9663294b25f
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_dpt
-    owner: ebi-gxa
-    revisions:
-    - 17eca8cc832a
-    - f57f57c459d8
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_fdg
-    owner: ebi-gxa
-    revisions:
-    - 96af0059b974
-    - 646e7e3044ca
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_paga
-    owner: ebi-gxa
-    revisions:
-    - 77bc9501765d
-    - 3e53344e540d
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_pca
-    owner: ebi-gxa
-    revisions:
-    - 7798c318e7d7
-    - fe900f147809
-    - 5063cd7f8c89
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_tsne
-    owner: ebi-gxa
-    revisions:
-    - f6f189ce4ebc
-    - b946c0c60d4c
-    - 2e74fd7b5f45
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_run_umap
-    owner: ebi-gxa
-    revisions:
-    - 0ac2f9f2313b
-    - 88c1516e25e0
-    - 01750c193a83
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: scanpy_scale_data
-    owner: ebi-gxa
-    revisions:
-    - 3a0d4bebabc5
-    - 9acb5f068e6b
-    - 96b851e96dd0
-    tool_panel_section_id: 'hca_sc_scanpy_tools'
-
-  - name: seurat_create_seurat_object
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_dim_plot
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_export_cellbrowser
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_filter_cells
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_find_clusters
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_find_markers
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_find_variable_genes
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_normalise_data
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_read10x
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_run_pca
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_run_tsne
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: seurat_scale_data
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_seurat_tools'
-
-  - name: monocle3_create
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_diffexp
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_learngraph
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_ordercells
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_partition
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_plotcells
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_preprocess
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: monocle3_reducedim
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_monocle3_tools'
-
-  - name: run_sccaf
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sccaf_tools'
-
-  - name: sccaf_asses
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sccaf_tools'
-
-  - name: sccaf_asses_merger
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_sccaf_tools'
-
-  - name: scmap_index_cell
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_scmap_tools'
-
-  - name: scmap_index_cluster
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_scmap_tools'
-
-  - name: scmap_scmap_cell
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_scmap_tools'
-
-  - name: scmap_scmap_cluster
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_scmap_tools'
-
-  - name: scmap_select_features
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_scmap_tools'
-
-  - name: ucsc_cell_browser
-    owner: ebi-gxa
-    revisions:
-    - 674777a022e4
-    - 679dfd1dd63b
-    tool_panel_section_id: 'hca_sc_utils_viz'
-
-  - name: sceasy_convert
-    owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_utils_viz'
-
-  - name: text_processing
-    owner: bgruening
-    tool_panel_section_label: 'Text Manipulation'
-
-  - name: umi_tools_count
-    owner: iuc
-    revisions:
-    - b557acca0b56
-    tool_panel_section_label: FASTA/FASTQ manipulation
-
-  - name: alevin
-    owner: bgruening
-    revisions:
-    - 0a5258e41227
-    tool_panel_section_label: RNA-Seq
-    tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dropletutils_read_10x
+  owner: ebi-gxa
+  revisions:
+  - d62a9aa0411e
+  - f25f42dc256a
+  tool_panel_section_id: hca_sc_utils_viz
+- name: gtf2gene_list
+  owner: ebi-gxa
+  revisions:
+  - 00ee933b08fd
+  - 040d4b3a19d5
+  - 247b439a78f7
+  - b6354c917ef9
+  - b95e6a9bb15c
+  - e255c0e5dfca
+  tool_panel_section_id: hca_sc_utils_viz
+- name: retrieve_scxa
+  owner: ebi-gxa
+  revisions:
+  - cc21614b6693
+  - cd6b80f62fcc
+  tool_panel_section_id: hca_sc_get-scrna
+- name: hca_matrix_downloader
+  owner: ebi-gxa
+  revisions:
+  - 2e81fbe036b2
+  - c127d4124583
+  tool_panel_section_id: hca_sc_get-scrna
+- name: sc3_calc_biology
+  owner: ebi-gxa
+  revisions:
+  - 2ee3dd245f72
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: sc3_calc_consens
+  owner: ebi-gxa
+  revisions:
+  - aa83350751f5
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: sc3_calc_dists
+  owner: ebi-gxa
+  revisions:
+  - d005fe979d80
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: sc3_calc_transfs
+  owner: ebi-gxa
+  revisions:
+  - b06019da7b5a
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: sc3_estimate_k
+  owner: ebi-gxa
+  revisions:
+  - aab4d3a52ee3
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: sc3_kmeans
+  owner: ebi-gxa
+  revisions:
+  - b3c3cf813a49
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: sc3_prepare
+  owner: ebi-gxa
+  revisions:
+  - 9a2b61bfdaa9
+  tool_panel_section_id: hca_sc_sc3_tools
+- name: scanpy_compute_graph
+  owner: ebi-gxa
+  revisions:
+  - 3d242b0d97d0
+  - 53e6944bd162
+  - 6b2673e1f4c6
+  - e7fd6981c0f0
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - 8e48fa9618c1
+  - 9f0ca1641ab2
+  - c23d0ff783d4
+  - dcfb23758646
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_filter_genes
+  owner: ebi-gxa
+  revisions:
+  - 77fbe74247c2
+  - 7aebd6265a97
+  - a797a810d7e9
+  - d1b97a5d5a8d
+  - fa6c08064fc1
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_find_cluster
+  owner: ebi-gxa
+  revisions:
+  - 455846afcc73
+  - ce27ae8a36cd
+  - e232ea3fff07
+  - ee181563bae7
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_find_markers
+  owner: ebi-gxa
+  revisions:
+  - 71668dd2d47b
+  - af5e4efa9e66
+  - c18f446dcfbf
+  - c608fd80ec15
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - 305d0cbe0ffd
+  - 321f1b073cbc
+  - b089f4a55e6b
+  - d88a29e2eba6
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 059f8d2e8be1
+  - 1dda36e73482
+  - 378ea34bbf2a
+  - e541f264fad2
+  - f7322b68cc90
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+  revisions:
+  - 1a30a61effea
+  - f0dd61087af3
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_plot_embed
+  owner: ebi-gxa
+  revisions:
+  - 882f4671d686
+  - c63bc0b71865
+  - ddb20964072e
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_plot_trajectory
+  owner: ebi-gxa
+  revisions:
+  - 3798ea6a5e21
+  - 8e2fc37c3e0c
+  - f76e8237073a
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_read_10x
+  owner: ebi-gxa
+  revisions:
+  - 3faf577f3e40
+  - 572b6e3b2aff
+  - b021ae78ccb4
+  - cf55e0e462da
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_regress_variable
+  owner: ebi-gxa
+  revisions:
+  - 203fac3b1ba3
+  - 6c990f8ccad3
+  - b8f8890d95e4
+  - eb6935434c1f
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_diffmap
+  owner: ebi-gxa
+  revisions:
+  - 34d65f2ccde3
+  - a05d2553484e
+  - c9663294b25f
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_dpt
+  owner: ebi-gxa
+  revisions:
+  - 17eca8cc832a
+  - e82f42730fa1
+  - f57f57c459d8
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_fdg
+  owner: ebi-gxa
+  revisions:
+  - 4c38558f0e7c
+  - 646e7e3044ca
+  - 96af0059b974
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_paga
+  owner: ebi-gxa
+  revisions:
+  - 3e53344e540d
+  - 77bc9501765d
+  - a12f0d1b0fac
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_pca
+  owner: ebi-gxa
+  revisions:
+  - 5063cd7f8c89
+  - 7798c318e7d7
+  - 8b4dae3748d3
+  - fe900f147809
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_tsne
+  owner: ebi-gxa
+  revisions:
+  - 2e74fd7b5f45
+  - 3589dfaef3f6
+  - b946c0c60d4c
+  - f6f189ce4ebc
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_run_umap
+  owner: ebi-gxa
+  revisions:
+  - 01750c193a83
+  - 0ac2f9f2313b
+  - 88c1516e25e0
+  - c111d7d04f0b
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_scale_data
+  owner: ebi-gxa
+  revisions:
+  - 3a0d4bebabc5
+  - 4c73b070cbff
+  - 96b851e96dd0
+  - 9acb5f068e6b
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: seurat_create_seurat_object
+  owner: ebi-gxa
+  revisions:
+  - f8865ae30723
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_dim_plot
+  owner: ebi-gxa
+  revisions:
+  - 6e26ee99fdfc
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_export_cellbrowser
+  owner: ebi-gxa
+  revisions:
+  - 8c2b1d2659df
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - c1848daebad1
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_find_clusters
+  owner: ebi-gxa
+  revisions:
+  - 8ea738667314
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_find_markers
+  owner: ebi-gxa
+  revisions:
+  - fde95fe95f15
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - a56efad05337
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 619fead82856
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_read10x
+  owner: ebi-gxa
+  revisions:
+  - 1b8566f3c1d0
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_run_pca
+  owner: ebi-gxa
+  revisions:
+  - df80f3d2f9d4
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_run_tsne
+  owner: ebi-gxa
+  revisions:
+  - 3aea769deab1
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_scale_data
+  owner: ebi-gxa
+  revisions:
+  - 6166efaeb4a6
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: monocle3_create
+  owner: ebi-gxa
+  revisions:
+  - 75340a5e5fb0
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_diffexp
+  owner: ebi-gxa
+  revisions:
+  - c0441ea8f37a
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_learngraph
+  owner: ebi-gxa
+  revisions:
+  - 710d112ee525
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_ordercells
+  owner: ebi-gxa
+  revisions:
+  - 5520da33a868
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_partition
+  owner: ebi-gxa
+  revisions:
+  - be84f9c3a2dd
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_plotcells
+  owner: ebi-gxa
+  revisions:
+  - 896359db6339
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_preprocess
+  owner: ebi-gxa
+  revisions:
+  - 384b9bcf2807
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_reducedim
+  owner: ebi-gxa
+  revisions:
+  - 9e59e242ed63
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: run_sccaf
+  owner: ebi-gxa
+  revisions:
+  - ca26d4b4b02c
+  tool_panel_section_id: hca_sc_sccaf_tools
+- name: sccaf_asses
+  owner: ebi-gxa
+  revisions:
+  - 95670267a5b6
+  tool_panel_section_id: hca_sc_sccaf_tools
+- name: sccaf_asses_merger
+  owner: ebi-gxa
+  revisions:
+  - 933fad89b50a
+  tool_panel_section_id: hca_sc_sccaf_tools
+- name: scmap_index_cell
+  owner: ebi-gxa
+  revisions:
+  - 17b3d7e04b3c
+  tool_panel_section_id: hca_sc_scmap_tools
+- name: scmap_index_cluster
+  owner: ebi-gxa
+  revisions:
+  - e6d99b0652ec
+  tool_panel_section_id: hca_sc_scmap_tools
+- name: scmap_scmap_cell
+  owner: ebi-gxa
+  revisions:
+  - c2ca3bc40523
+  tool_panel_section_id: hca_sc_scmap_tools
+- name: scmap_scmap_cluster
+  owner: ebi-gxa
+  revisions:
+  - b436e7d353ae
+  tool_panel_section_id: hca_sc_scmap_tools
+- name: scmap_select_features
+  owner: ebi-gxa
+  revisions:
+  - 953c7ff4069e
+  tool_panel_section_id: hca_sc_scmap_tools
+- name: ucsc_cell_browser
+  owner: ebi-gxa
+  revisions:
+  - 674777a022e4
+  - 679dfd1dd63b
+  tool_panel_section_id: hca_sc_utils_viz
+- name: sceasy_convert
+  owner: ebi-gxa
+  revisions:
+  - f62bc418173f
+  tool_panel_section_id: hca_sc_utils_viz
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - 0a8c6b61f0f4
+  tool_panel_section_label: Text Manipulation
+- name: umi_tools_count
+  owner: iuc
+  revisions:
+  - 933220bbc2ae
+  - b557acca0b56
+  tool_panel_section_label: FASTA/FASTQ manipulation
+- name: alevin
+  owner: bgruening
+  revisions:
+  - 0a5258e41227
+  - 917f8e439160
+  tool_panel_section_label: RNA-Seq
