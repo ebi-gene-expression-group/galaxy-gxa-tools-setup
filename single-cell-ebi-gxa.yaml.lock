@@ -8,6 +8,11 @@ tools:
   - d62a9aa0411e
   - f25f42dc256a
   tool_panel_section_id: hca_sc_utils_viz
+- name: dropletutils_empty_drops
+  owner: ebi-gxa
+  revisions:
+  - b4332c428c63
+  tool_panel_section_id: hca_sc_utils_viz
 - name: gtf2gene_list
   owner: ebi-gxa
   revisions:
@@ -387,3 +392,13 @@ tools:
   - 0a5258e41227
   - 917f8e439160
   tool_panel_section_label: RNA-Seq
+- name: salmon_kallisto_mtx_to_10x
+  owner: ebi-gxa
+  revisions:
+  - cd6007b47199
+  tool_panel_section_id: hca_sc_utils_viz
+- name: droplet_barcode_plot
+  owner: ebi-gxa
+  revisions:
+  - 04f32429dcf2
+  tool_panel_section_id: hca_sc_utils_viz
