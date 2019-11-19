@@ -70,6 +70,11 @@ tools:
   revisions:
   - 9a2b61bfdaa9
   tool_panel_section_id: hca_sc_sc3_tools
+- name: anndata_ops
+  owner: ebi-gxa
+  revisions:
+  - 086d850271a2
+  tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
@@ -338,6 +343,11 @@ tools:
   owner: ebi-gxa
   revisions:
   - 933fad89b50a
+  tool_panel_section_id: hca_sc_sccaf_tools
+- name: sccaf_regress_out
+  owner: ebi-gxa
+  revisions:
+  - 885db50f1bc1
   tool_panel_section_id: hca_sc_sccaf_tools
 - name: scmap_index_cell
   owner: ebi-gxa
