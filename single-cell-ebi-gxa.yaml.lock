@@ -90,6 +90,7 @@ tools:
   revisions:
   - 1b0fdf08a454
   - 8e48fa9618c1
+  - 9024cf7a9a13
   - 9b2072ee4bdd
   - 9f0ca1641ab2
   - c23d0ff783d4
@@ -98,6 +99,7 @@ tools:
 - name: scanpy_filter_genes
   owner: ebi-gxa
   revisions:
+  - 0bba942e0869
   - 77fbe74247c2
   - 7aebd6265a97
   - a797a810d7e9
