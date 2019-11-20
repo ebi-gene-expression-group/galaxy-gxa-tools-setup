@@ -90,6 +90,7 @@ tools:
   revisions:
   - 1b0fdf08a454
   - 8e48fa9618c1
+  - 9b2072ee4bdd
   - 9f0ca1641ab2
   - c23d0ff783d4
   - dcfb23758646
@@ -100,6 +101,7 @@ tools:
   - 77fbe74247c2
   - 7aebd6265a97
   - a797a810d7e9
+  - cb55f68ea1d7
   - d1b97a5d5a8d
   - f1e4de78d768
   - fa6c08064fc1
