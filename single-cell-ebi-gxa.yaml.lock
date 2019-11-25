@@ -268,27 +268,32 @@ tools:
 - name: seurat_export_cellbrowser
   owner: ebi-gxa
   revisions:
+  - 80eec773c961
   - 8c2b1d2659df
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_filter_cells
   owner: ebi-gxa
   revisions:
+  - 30982e805f8c
   - c1848daebad1
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_clusters
   owner: ebi-gxa
   revisions:
   - 8ea738667314
+  - bdabb6af06e4
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_markers
   owner: ebi-gxa
   revisions:
+  - 7895b4bb6247
   - fde95fe95f15
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_variable_genes
   owner: ebi-gxa
   revisions:
   - a56efad05337
+  - a6077346f869
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_normalise_data
   owner: ebi-gxa
@@ -299,10 +304,12 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1b8566f3c1d0
+  - 265dcc5bc1e8
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_run_pca
   owner: ebi-gxa
   revisions:
+  - c4607a42113e
   - df80f3d2f9d4
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_run_tsne
@@ -314,6 +321,11 @@ tools:
   owner: ebi-gxa
   revisions:
   - 6166efaeb4a6
+  tool_panel_section_id: hca_sc_seurat_tools
+- name: seurat_find_neighbours
+  owner: ebi-gxa
+  revisions:
+  - 4fff8ad1c76d
   tool_panel_section_id: hca_sc_seurat_tools
 - name: monocle3_create
   owner: ebi-gxa
