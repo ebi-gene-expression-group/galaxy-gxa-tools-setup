@@ -264,6 +264,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 6e26ee99fdfc
+  - daeca8f7a26e
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_export_cellbrowser
   owner: ebi-gxa
@@ -298,6 +299,7 @@ tools:
 - name: seurat_normalise_data
   owner: ebi-gxa
   revisions:
+  - 48174ec556de
   - 619fead82856
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_read10x
@@ -315,11 +317,13 @@ tools:
 - name: seurat_run_tsne
   owner: ebi-gxa
   revisions:
+  - 13a27436f8ee
   - 3aea769deab1
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_scale_data
   owner: ebi-gxa
   revisions:
+  - 3d0bfc2a233e
   - 6166efaeb4a6
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_neighbours
@@ -370,21 +374,25 @@ tools:
 - name: run_sccaf
   owner: ebi-gxa
   revisions:
+  - 647d34f125bc
   - ca26d4b4b02c
   tool_panel_section_id: hca_sc_sccaf_tools
 - name: sccaf_asses
   owner: ebi-gxa
   revisions:
+  - 37a4c22f600b
   - 95670267a5b6
   tool_panel_section_id: hca_sc_sccaf_tools
 - name: sccaf_asses_merger
   owner: ebi-gxa
   revisions:
   - 933fad89b50a
+  - 99d15ded4d5f
   tool_panel_section_id: hca_sc_sccaf_tools
 - name: sccaf_regress_out
   owner: ebi-gxa
   revisions:
+  - 5ef0610e9f50
   - 885db50f1bc1
   tool_panel_section_id: hca_sc_sccaf_tools
 - name: scmap_index_cell
