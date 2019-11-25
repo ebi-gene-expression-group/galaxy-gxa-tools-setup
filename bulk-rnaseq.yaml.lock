@@ -127,3 +127,8 @@ tools:
   revisions:
   - bcc7b19f86fa
   tool_panel_section_label: RNA-Seq
+- name: fastq_quality_filter
+  owner: devteam
+  revisions:
+  - 7b4468117008
+  tool_panel_section_label: RNA-Seq
