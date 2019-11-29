@@ -71,6 +71,7 @@ tools:
   owner: iuc
   revisions:
   - 850f3679b9b4
+  - b9e04854e2bb
   - d5659efd66aa
   tool_panel_section_label: RNA-Seq
 - name: kallisto_pseudo
@@ -120,6 +121,7 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
+  - 1a052c827e88
   - f437057e46f1
   tool_panel_section_label: RNA-Seq
 - name: package_qualimap_2_2
