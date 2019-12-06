@@ -481,6 +481,7 @@ tools:
 - name: umi_tools_count
   owner: iuc
   revisions:
+  - 276b4111b253
   - 933220bbc2ae
   - b557acca0b56
   tool_panel_section_label: FASTA/FASTQ manipulation
