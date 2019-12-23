@@ -3,6 +3,7 @@ tools:
   owner: devteam
   revisions:
   - 115f3e61b012
+  - 847c9ef56a52
   - d1d5feb31804
   tool_panel_section_label: None
 - name: data_manager_fetch_genome_dbkeys_all_fasta
