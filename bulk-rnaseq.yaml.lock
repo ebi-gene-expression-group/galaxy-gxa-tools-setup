@@ -91,6 +91,7 @@ tools:
   revisions:
   - 67b0b160903a
   - 7f5a8d427b39
+  - 916cb26bd9d3
   tool_panel_section_label: RNA-Seq
 - name: fastqc
   owner: devteam
