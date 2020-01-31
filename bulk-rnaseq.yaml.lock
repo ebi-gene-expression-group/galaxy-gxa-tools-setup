@@ -135,4 +135,5 @@ tools:
   owner: devteam
   revisions:
   - 7b4468117008
+  - ce9cd02d5b88
   tool_panel_section_label: RNA-Seq
