@@ -32,6 +32,7 @@ tools:
 - name: data_manager_manual
   owner: iuc
   revisions:
+  - 0bed5ee5b74a
   - 6524e573d9c2
   - 744f607fac50
   tool_panel_section_label: None
