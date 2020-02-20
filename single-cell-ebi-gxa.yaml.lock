@@ -76,6 +76,7 @@ tools:
   revisions:
   - 086d850271a2
   - 339d205356c6
+  - 98f37271c17c
   - ba18139e7400
   - d586ebb8ff43
   - ec4604919de3
@@ -91,11 +92,13 @@ tools:
   - 7ad420b1be89
   - aada17e5da75
   - e7fd6981c0f0
+  - fe740b19e3b9
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_filter_cells
   owner: ebi-gxa
   revisions:
   - 1b0fdf08a454
+  - 3c3c254c9deb
   - 8d97bee137b5
   - 8e48fa9618c1
   - 9024cf7a9a13
@@ -111,6 +114,7 @@ tools:
   revisions:
   - 0bba942e0869
   - 4bc377096eea
+  - 6ac8b9a3a279
   - 6d571e4e5839
   - 77fbe74247c2
   - 7aebd6265a97
@@ -126,6 +130,7 @@ tools:
   revisions:
   - 2784759ad631
   - 455846afcc73
+  - 6a9e2be28b07
   - 8abb1680e8ca
   - ab7a3bb8a622
   - ce27ae8a36cd
@@ -137,6 +142,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 23939bfeee92
+  - 377224a3cd1d
   - 67fa4288eee5
   - 71668dd2d47b
   - 74100c9351bc
@@ -152,6 +158,7 @@ tools:
   - 305d0cbe0ffd
   - 321f1b073cbc
   - 7558a3d8338e
+  - 7a68f44c866b
   - b089f4a55e6b
   - cb007db0857d
   - d88a29e2eba6
@@ -163,6 +170,7 @@ tools:
   - 059f8d2e8be1
   - 1442daff0c7c
   - 1dda36e73482
+  - 3636ec97f3af
   - 378ea34bbf2a
   - 4a6b3778fcc4
   - 9681ec095ed5
@@ -176,6 +184,7 @@ tools:
   - 1a30a61effea
   - 877471253a87
   - 8e72a9b68d9d
+  - 93680e2ff8f4
   - d574549f9dee
   - ec800d531617
   - f0dd61087af3
@@ -184,6 +193,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 109cfa259d8b
+  - 452e0f19c2a2
   - 49fe4e682059
   - 882f4671d686
   - b2410da4e381
@@ -196,6 +206,7 @@ tools:
   revisions:
   - 15f986f5dde6
   - 1b0680f609ce
+  - 1d0e587bdd60
   - 3798ea6a5e21
   - 4e666c43b6e3
   - 63cbe6d65e67
@@ -209,6 +220,7 @@ tools:
   - 572b6e3b2aff
   - 5fa923796ed3
   - 741d50b6dc78
+  - 7757f4b43174
   - b021ae78ccb4
   - bd4a491baf39
   - cf55e0e462da
@@ -221,6 +233,7 @@ tools:
   - 2131ec9d52e2
   - 5d112debfa2e
   - 6c990f8ccad3
+  - 91157b3432df
   - b174cb4cb89e
   - b8f8890d95e4
   - eb6935434c1f
@@ -230,6 +243,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 34d65f2ccde3
+  - 3f8d10b43598
   - 47603f46d6d9
   - 4a53eb16b926
   - 8e45c89adab2
@@ -242,6 +256,7 @@ tools:
   revisions:
   - 17eca8cc832a
   - 202e28c59b59
+  - 299aca1029a1
   - 34f674af79ff
   - 4df362cd2aff
   - b1cb0c2831ea
@@ -254,6 +269,7 @@ tools:
   - 4c38558f0e7c
   - 5fb11df8f217
   - 646e7e3044ca
+  - 6c40cc3e9dc0
   - 6f84e4382fb2
   - 96af0059b974
   - d929261bc28c
@@ -268,11 +284,13 @@ tools:
   - 8f2237bedbae
   - a12f0d1b0fac
   - b9ccaa957667
+  - d811772b94d7
   - fa114efdb1e7
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_run_pca
   owner: ebi-gxa
   revisions:
+  - 1618435e2a33
   - 242cf7e1fd0c
   - 5063cd7f8c89
   - 544d45fca48f
@@ -290,6 +308,7 @@ tools:
   - 3589dfaef3f6
   - 45674f057a31
   - 4ed72fb8eaf8
+  - af9b447bcde8
   - b946c0c60d4c
   - d85277b71596
   - f6f189ce4ebc
@@ -300,6 +319,7 @@ tools:
   - 01750c193a83
   - 0ac2f9f2313b
   - 3bd1152dd854
+  - 41f6078040da
   - 447c4a7e8561
   - 6eb7a2e37adf
   - 88c1516e25e0
@@ -317,6 +337,7 @@ tools:
   - 9acb5f068e6b
   - c23efca79651
   - c8f196ccf34a
+  - eabf8e76e007
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: seurat_create_seurat_object
   owner: ebi-gxa
