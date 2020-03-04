@@ -19,6 +19,7 @@ tools:
   revisions:
   - 00ee933b08fd
   - 040d4b3a19d5
+  - 1a642de6db01
   - 247b439a78f7
   - b6354c917ef9
   - b95e6a9bb15c
@@ -553,6 +554,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 17f7e1e51fad
+  - 5675dc87bb8d
   - 60fa6080f86f
   - cd6007b47199
   tool_panel_section_id: hca_sc_utils_viz
@@ -560,4 +562,5 @@ tools:
   owner: ebi-gxa
   revisions:
   - 04f32429dcf2
+  - 0e985680e67d
   tool_panel_section_id: hca_sc_utils_viz
