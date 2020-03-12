@@ -578,6 +578,7 @@ tools:
   - 5675dc87bb8d
   - 60fa6080f86f
   - cd6007b47199
+  - e42c217a450f
   tool_panel_section_id: hca_sc_utils_viz
 - name: droplet_barcode_plot
   owner: ebi-gxa
