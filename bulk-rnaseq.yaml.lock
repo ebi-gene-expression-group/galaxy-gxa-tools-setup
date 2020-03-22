@@ -123,6 +123,7 @@ tools:
   owner: bgruening
   revisions:
   - 0a8c6b61f0f4
+  - fb4ff3c42cd3
   tool_panel_section_label: Util
 - name: rseqc
   owner: nilesh
