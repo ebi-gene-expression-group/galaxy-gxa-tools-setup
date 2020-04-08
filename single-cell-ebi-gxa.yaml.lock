@@ -573,6 +573,11 @@ tools:
   - 3e22b96ba4fb
   - 953c7ff4069e
   tool_panel_section_id: hca_sc_scmap_tools
+- name: scmap_get_std_output
+  owner: ebi-gxa
+  revisions:
+  - 5f95950c3959
+  tool_panel_section_id: hca_sc_scmap_tools
 - name: ucsc_cell_browser
   owner: ebi-gxa
   revisions:
@@ -619,3 +624,92 @@ tools:
   - 0e985680e67d
   - 8f605643ccfd
   tool_panel_section_id: hca_sc_utils_viz
+- name: ct_build_cell_ontology_dict
+  owner: ebi-gxa
+  revisions: []
+  tool_panel_section_id: hca_sc_label_analysis_tools
+- name: ct_combine_tool_outputs
+  owner: ebi-gxa
+  revisions: []
+  tool_panel_section_id: hca_sc_label_analysis_tools
+- name: ct_get_consensus_outputs
+  owner: ebi-gxa
+  revisions: []
+  tool_panel_section_id: hca_sc_label_analysis_tools
+- name: ct_get_empirical_dist
+  owner: ebi-gxa
+  revisions: []
+  tool_panel_section_id: hca_sc_label_analysis_tools
+- name: ct_get_tool_perf_table
+  owner: ebi-gxa
+  revisions: []
+  tool_panel_section_id: hca_sc_label_analysis_tools
+- name: ct_get_tool_pvals
+  owner: ebi-gxa
+  revisions: []
+  tool_panel_section_id: hca_sc_label_analysis_tools
+- name: garnett_check_markers
+  owner: ebi-gxa
+  revisions:
+  - d2aace2bb87f
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: garnett_classify_cells
+  owner: ebi-gxa
+  revisions:
+  - 67e6c4455bb8
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: garnett_get_feature_genes
+  owner: ebi-gxa
+  revisions:
+  - 29117f5b2cd9
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: garnett_get_std_output
+  owner: ebi-gxa
+  revisions:
+  - 40b587883bd9
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: garnett_train_classifier
+  owner: ebi-gxa
+  revisions:
+  - 24a22971dd44
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: garnett_transform_markers
+  owner: ebi-gxa
+  revisions:
+  - 2142ecf6ff02
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: update_marker_file
+  owner: ebi-gxa
+  revisions:
+  - 8ee96cde3643
+  tool_panel_section_id: hca_sc_garnett_tools
+- name: scpred_eigen_decompose
+  owner: ebi-gxa
+  revisions:
+  - c6fd7cbaf247
+  tool_panel_section_id: hca_sc_scpred_tools
+- name: scpred_get_feature_space
+  owner: ebi-gxa
+  revisions:
+  - db7ecc1aaf59
+  tool_panel_section_id: hca_sc_scpred_tools
+- name: scpred_get_std_output
+  owner: ebi-gxa
+  revisions:
+  - 156b1e9cc269
+  tool_panel_section_id: hca_sc_scpred_tools
+- name: scpred_predict_labels
+  owner: ebi-gxa
+  revisions:
+  - c54f0e1a3bd8
+  tool_panel_section_id: hca_sc_scpred_tools
+- name: scpred_train_model
+  owner: ebi-gxa
+  revisions:
+  - b17acf485397
+  tool_panel_section_id: hca_sc_scpred_tools
+- name: scpred_traint_test_split
+  owner: ebi-gxa
+  revisions:
+  - 8ec19f24fcf3
+  tool_panel_section_id: hca_sc_scpred_tools
