@@ -626,27 +626,33 @@ tools:
   tool_panel_section_id: hca_sc_utils_viz
 - name: ct_build_cell_ontology_dict
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 406d293e567e
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_combine_tool_outputs
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 7c7d1ef36bf6
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_consensus_outputs
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 66cdd8438ac6
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_empirical_dist
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 196cc72cebd1
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_tool_perf_table
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 10889190fe31
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_tool_pvals
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - f2ffa4fd4c2a
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: garnett_check_markers
   owner: ebi-gxa
