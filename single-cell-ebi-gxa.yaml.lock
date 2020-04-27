@@ -636,16 +636,19 @@ tools:
   revisions:
   - 406d293e567e
   - 7086be9e707e
+  - 982a151b2960
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_combine_tool_outputs
   owner: ebi-gxa
   revisions:
+  - 44b6219cba2d
   - 7c7d1ef36bf6
   - dc68e75e8ae3
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_consensus_outputs
   owner: ebi-gxa
   revisions:
+  - 559fbff1f573
   - 66cdd8438ac6
   - a31bc9849f91
   tool_panel_section_id: hca_sc_label_analysis_tools
@@ -654,16 +657,19 @@ tools:
   revisions:
   - 196cc72cebd1
   - 9d5e6a4ec5b5
+  - ce70358b0fe3
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_tool_perf_table
   owner: ebi-gxa
   revisions:
   - 10889190fe31
   - 71602426b328
+  - 71c809e81f66
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_tool_pvals
   owner: ebi-gxa
   revisions:
+  - 39f348e76f41
   - cb8921e0f4f0
   - f2ffa4fd4c2a
   tool_panel_section_id: hca_sc_label_analysis_tools
@@ -671,23 +677,27 @@ tools:
   owner: ebi-gxa
   revisions:
   - c00e672eadbc
+  - ce67c5c9a56e
   - d2aace2bb87f
   tool_panel_section_id: hca_sc_garnett_tools
 - name: garnett_classify_cells
   owner: ebi-gxa
   revisions:
   - 67e6c4455bb8
+  - 715b020ecfb6
   - ad647e1d14dc
   tool_panel_section_id: hca_sc_garnett_tools
 - name: garnett_get_feature_genes
   owner: ebi-gxa
   revisions:
   - 29117f5b2cd9
+  - 3176cbad2800
   - a16b409dee64
   tool_panel_section_id: hca_sc_garnett_tools
 - name: garnett_get_std_output
   owner: ebi-gxa
   revisions:
+  - 07deabaded2b
   - 1023eae1b147
   - 40b587883bd9
   tool_panel_section_id: hca_sc_garnett_tools
@@ -696,16 +706,19 @@ tools:
   revisions:
   - 2067ebe66b55
   - 24a22971dd44
+  - e7bb0bf34f26
   tool_panel_section_id: hca_sc_garnett_tools
 - name: garnett_transform_markers
   owner: ebi-gxa
   revisions:
+  - 1dc49d16e96c
   - 211241c50ccf
   - 2142ecf6ff02
   tool_panel_section_id: hca_sc_garnett_tools
 - name: update_marker_file
   owner: ebi-gxa
   revisions:
+  - 3a1cfbb8aa56
   - 5036928f60bc
   - 8ee96cde3643
   tool_panel_section_id: hca_sc_garnett_tools
