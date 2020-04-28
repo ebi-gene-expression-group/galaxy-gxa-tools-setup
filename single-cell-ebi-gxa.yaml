@@ -365,4 +365,7 @@ tools:
   - name: scpred_traint_test_split
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scpred_tools'
-    
+
+  - name: scpred_preprocess_data
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_scpred_tools'
