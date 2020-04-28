@@ -758,3 +758,8 @@ tools:
   - 148fae20fe64
   - 8ec19f24fcf3
   tool_panel_section_id: hca_sc_scpred_tools
+- name: scpred_preprocess_data
+  owner: ebi-gxa
+  revisions:
+  - ec6d9a9fb273
+  tool_panel_section_id: hca_sc_scpred_tools
