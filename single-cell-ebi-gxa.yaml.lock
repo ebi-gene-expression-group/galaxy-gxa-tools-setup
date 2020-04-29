@@ -467,6 +467,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 2e446b0cb437
+  - 46a523dc303f
   - 75340a5e5fb0
   - a34f243f55a4
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -475,12 +476,14 @@ tools:
   revisions:
   - a7d4f80d1265
   - c0441ea8f37a
+  - c5665e286bcf
   - f91ddb6bc4ff
   tool_panel_section_id: hca_sc_monocle3_tools
 - name: monocle3_learngraph
   owner: ebi-gxa
   revisions:
   - 17e74fba97fd
+  - 6b6b5a6d4021
   - 710d112ee525
   - 98e99ab36505
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -488,6 +491,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 5520da33a868
+  - 762c57e35238
   - e17c3123cdb5
   - f58c4eb5446d
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -495,6 +499,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 426e1a869cb3
+  - 60cedaee808d
   - 92ca41fbc123
   - be84f9c3a2dd
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -504,10 +509,12 @@ tools:
   - 3e737c810a54
   - 896359db6339
   - ad64e2d368d6
+  - ef2dc754709c
   tool_panel_section_id: hca_sc_monocle3_tools
 - name: monocle3_preprocess
   owner: ebi-gxa
   revisions:
+  - 0276a57983e8
   - 0869b0264af1
   - 273d11a83e42
   - 384b9bcf2807
@@ -516,6 +523,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 004a86dffd79
+  - 82cc10768c74
   - 98f4918eee70
   - 9e59e242ed63
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -549,12 +557,14 @@ tools:
   - 17b3d7e04b3c
   - 5593b0744de9
   - dd2a84734b87
+  - faa50757208d
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_index_cluster
   owner: ebi-gxa
   revisions:
   - 63f1a27dce34
   - 9b60d5972dbd
+  - b65f8ef6ca30
   - e6d99b0652ec
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_scmap_cell
@@ -581,6 +591,7 @@ tools:
 - name: scmap_get_std_output
   owner: ebi-gxa
   revisions:
+  - 0cb98597934b
   - 5f95950c3959
   - 656c588b718c
   tool_panel_section_id: hca_sc_scmap_tools
@@ -700,12 +711,14 @@ tools:
   - 07deabaded2b
   - 1023eae1b147
   - 40b587883bd9
+  - 5f05e2901299
   tool_panel_section_id: hca_sc_garnett_tools
 - name: garnett_train_classifier
   owner: ebi-gxa
   revisions:
   - 2067ebe66b55
   - 24a22971dd44
+  - 9be21507358d
   - e7bb0bf34f26
   tool_panel_section_id: hca_sc_garnett_tools
 - name: garnett_transform_markers
@@ -737,6 +750,7 @@ tools:
 - name: scpred_get_std_output
   owner: ebi-gxa
   revisions:
+  - 138d00a58412
   - 156b1e9cc269
   - a7bf1d2b310b
   tool_panel_section_id: hca_sc_scpred_tools
@@ -750,6 +764,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 01493c9cdfa7
+  - 46c2b1454118
   - b17acf485397
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_traint_test_split
