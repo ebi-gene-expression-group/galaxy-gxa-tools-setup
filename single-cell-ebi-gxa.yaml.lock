@@ -556,6 +556,7 @@ tools:
   revisions:
   - 17b3d7e04b3c
   - 5593b0744de9
+  - db43f55890d9
   - dd2a84734b87
   - faa50757208d
   tool_panel_section_id: hca_sc_scmap_tools
@@ -564,12 +565,14 @@ tools:
   revisions:
   - 63f1a27dce34
   - 9b60d5972dbd
+  - a1a0b864906d
   - b65f8ef6ca30
   - e6d99b0652ec
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_scmap_cell
   owner: ebi-gxa
   revisions:
+  - 19f2fc7a8920
   - 2b85cec412c3
   - c2ca3bc40523
   - f8921da94342
@@ -578,8 +581,14 @@ tools:
   owner: ebi-gxa
   revisions:
   - 037b0e7a7606
+  - 6651208d890b
   - 97922339644a
   - b436e7d353ae
+  tool_panel_section_id: hca_sc_scmap_tools
+- name: scmap_preprocess_sce
+  owner: ebi-gxa
+  revisions:
+  - a74497e18277
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_select_features
   owner: ebi-gxa
@@ -587,11 +596,13 @@ tools:
   - 3e22b96ba4fb
   - 953c7ff4069e
   - d0d9c3dfd609
+  - d85fba139f9a
   tool_panel_section_id: hca_sc_scmap_tools
 - name: scmap_get_std_output
   owner: ebi-gxa
   revisions:
   - 0cb98597934b
+  - 3370352d1f85
   - 5f95950c3959
   - 656c588b718c
   tool_panel_section_id: hca_sc_scmap_tools
@@ -757,6 +768,7 @@ tools:
 - name: scpred_predict_labels
   owner: ebi-gxa
   revisions:
+  - 051f5801c819
   - c54f0e1a3bd8
   - f0862eb4f999
   tool_panel_section_id: hca_sc_scpred_tools
@@ -772,9 +784,11 @@ tools:
   revisions:
   - 148fae20fe64
   - 8ec19f24fcf3
+  - a6d66c9953ed
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_preprocess_data
   owner: ebi-gxa
   revisions:
+  - 03b45c148df7
   - ec6d9a9fb273
   tool_panel_section_id: hca_sc_scpred_tools
