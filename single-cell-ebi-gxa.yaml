@@ -208,6 +208,10 @@ tools:
   - name: monocle3_partition
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_monocle3_tools'
+    
+  - name: monocle3_topmarkers
+    owner: ebi-gxa
+    tool_panel_section_id: 'hca_sc_monocle3_tools'
 
   - name: monocle3_plotcells
     owner: ebi-gxa
