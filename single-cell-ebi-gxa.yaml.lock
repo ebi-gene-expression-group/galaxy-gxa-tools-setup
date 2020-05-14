@@ -468,6 +468,7 @@ tools:
   revisions:
   - 2e446b0cb437
   - 46a523dc303f
+  - 5a4b2fcd04d1
   - 75340a5e5fb0
   - a34f243f55a4
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -477,6 +478,7 @@ tools:
   - a7d4f80d1265
   - c0441ea8f37a
   - c5665e286bcf
+  - d333006ef72a
   - f91ddb6bc4ff
   tool_panel_section_id: hca_sc_monocle3_tools
 - name: monocle3_learngraph
@@ -485,6 +487,7 @@ tools:
   - 17e74fba97fd
   - 6b6b5a6d4021
   - 710d112ee525
+  - 8ec85828b6e6
   - 98e99ab36505
   tool_panel_section_id: hca_sc_monocle3_tools
 - name: monocle3_ordercells
@@ -492,6 +495,7 @@ tools:
   revisions:
   - 5520da33a868
   - 762c57e35238
+  - a14bd9053e2b
   - e17c3123cdb5
   - f58c4eb5446d
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -501,11 +505,18 @@ tools:
   - 426e1a869cb3
   - 60cedaee808d
   - 92ca41fbc123
+  - b253a59cbb98
   - be84f9c3a2dd
+  tool_panel_section_id: hca_sc_monocle3_tools
+- name: monocle3_topmarkers
+  owner: ebi-gxa
+  revisions:
+  - bc2df96ef963
   tool_panel_section_id: hca_sc_monocle3_tools
 - name: monocle3_plotcells
   owner: ebi-gxa
   revisions:
+  - 016c39d243fb
   - 3e737c810a54
   - 896359db6339
   - ad64e2d368d6
@@ -516,6 +527,7 @@ tools:
   revisions:
   - 0276a57983e8
   - 0869b0264af1
+  - 181ef11cba9d
   - 273d11a83e42
   - 384b9bcf2807
   tool_panel_section_id: hca_sc_monocle3_tools
@@ -524,6 +536,7 @@ tools:
   revisions:
   - 004a86dffd79
   - 82cc10768c74
+  - 89aea3f27ed2
   - 98f4918eee70
   - 9e59e242ed63
   tool_panel_section_id: hca_sc_monocle3_tools
