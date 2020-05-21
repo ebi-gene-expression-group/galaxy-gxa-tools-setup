@@ -4,10 +4,12 @@ tools:
   revisions:
   - 08192eebb47d
   - 5e9171dc8244
+  - 6c145a6868cc
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 7647e5cd1b8b
   - 8599fd07d140
   - dbbe1ea8ecb1
   tool_panel_section_id: hca_sc_scanpy_tools
