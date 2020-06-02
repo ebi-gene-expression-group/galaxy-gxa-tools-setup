@@ -782,11 +782,13 @@ tools:
   owner: ebi-gxa
   revisions:
   - 3867289e6c1a
+  - 70e5a19d9d7e
   - c6fd7cbaf247
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_get_feature_space
   owner: ebi-gxa
   revisions:
+  - 2fa2f084ad32
   - 4a77d2091aec
   - db7ecc1aaf59
   tool_panel_section_id: hca_sc_scpred_tools
@@ -797,6 +799,7 @@ tools:
   - 156b1e9cc269
   - 43ce84bd1d9a
   - a7bf1d2b310b
+  - d276a8dd73c7
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_predict_labels
   owner: ebi-gxa
@@ -805,11 +808,13 @@ tools:
   - 1bc003e80986
   - c54f0e1a3bd8
   - f0862eb4f999
+  - fd06ab29487f
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_train_model
   owner: ebi-gxa
   revisions:
   - 01493c9cdfa7
+  - 03d1ed93e523
   - 46c2b1454118
   - b17acf485397
   - ba53e46a4275
@@ -818,6 +823,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 148fae20fe64
+  - 7aec34208f30
   - 8ec19f24fcf3
   - a6d66c9953ed
   tool_panel_section_id: hca_sc_scpred_tools
@@ -827,4 +833,5 @@ tools:
   - 03b45c148df7
   - 82087ae9fe4e
   - ec6d9a9fb273
+  - ecfdb9347edb
   tool_panel_section_id: hca_sc_scpred_tools
