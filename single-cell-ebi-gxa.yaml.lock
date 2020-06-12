@@ -81,6 +81,7 @@ tools:
   - '265348777440'
   - 339d205356c6
   - 35422e51b804
+  - 54f1212d26ac
   - 98f37271c17c
   - b8eb50bd397c
   - ba18139e7400
@@ -673,6 +674,7 @@ tools:
   revisions:
   - 674777a022e4
   - 679dfd1dd63b
+  - 8da642e17794
   - ad5179780e25
   tool_panel_section_id: hca_sc_utils_viz
 - name: sceasy_convert
