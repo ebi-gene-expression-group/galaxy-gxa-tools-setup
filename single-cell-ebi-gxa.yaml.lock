@@ -726,17 +726,20 @@ tools:
   - 406d293e567e
   - 7086be9e707e
   - 982a151b2960
+  - b51c48b16ffe
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_combine_tool_outputs
   owner: ebi-gxa
   revisions:
   - 44b6219cba2d
   - 7c7d1ef36bf6
+  - 846b34f8755e
   - dc68e75e8ae3
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_consensus_outputs
   owner: ebi-gxa
   revisions:
+  - 32101a7373ae
   - 559fbff1f573
   - 66cdd8438ac6
   - a31bc9849f91
@@ -745,6 +748,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 196cc72cebd1
+  - 5bf2827cd314
   - 9d5e6a4ec5b5
   - ce70358b0fe3
   tool_panel_section_id: hca_sc_label_analysis_tools
@@ -754,11 +758,13 @@ tools:
   - 10889190fe31
   - 71602426b328
   - 71c809e81f66
+  - d15f7509077b
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_tool_pvals
   owner: ebi-gxa
   revisions:
   - 39f348e76f41
+  - 4290ef6cbb68
   - cb8921e0f4f0
   - f2ffa4fd4c2a
   tool_panel_section_id: hca_sc_label_analysis_tools
