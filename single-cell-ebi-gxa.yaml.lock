@@ -7,6 +7,7 @@ tools:
   revisions:
   - 058a41379291
   - 48c1e7b39675
+  - d552332dff6d
   - d62a9aa0411e
   - f25f42dc256a
   tool_panel_section_id: hca_sc_utils_viz
