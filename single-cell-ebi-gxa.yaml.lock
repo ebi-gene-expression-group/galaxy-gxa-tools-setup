@@ -424,6 +424,7 @@ tools:
 - name: seurat_dim_plot
   owner: ebi-gxa
   revisions:
+  - 34f8d81f9d75
   - 6e26ee99fdfc
   - daeca8f7a26e
   tool_panel_section_id: hca_sc_seurat_tools
@@ -432,28 +433,33 @@ tools:
   revisions:
   - 80eec773c961
   - 8c2b1d2659df
+  - 9e1c4d2d0776
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_filter_cells
   owner: ebi-gxa
   revisions:
   - 30982e805f8c
   - c1848daebad1
+  - c2efa04fb03f
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_clusters
   owner: ebi-gxa
   revisions:
+  - 0715bcb14547
   - 8ea738667314
   - bdabb6af06e4
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_markers
   owner: ebi-gxa
   revisions:
+  - 4039a99ae846
   - 7895b4bb6247
   - fde95fe95f15
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_find_variable_genes
   owner: ebi-gxa
   revisions:
+  - 8f67188f11c4
   - a56efad05337
   - a6077346f869
   tool_panel_section_id: hca_sc_seurat_tools
@@ -462,28 +468,33 @@ tools:
   revisions:
   - 48174ec556de
   - 619fead82856
+  - 9d92ec597603
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_read10x
   owner: ebi-gxa
   revisions:
   - 1b8566f3c1d0
   - 265dcc5bc1e8
+  - 2d121013176f
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_run_pca
   owner: ebi-gxa
   revisions:
   - c4607a42113e
   - df80f3d2f9d4
+  - e534a73143b1
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_run_tsne
   owner: ebi-gxa
   revisions:
   - 13a27436f8ee
   - 3aea769deab1
+  - fd0fc93b3c87
   tool_panel_section_id: hca_sc_seurat_tools
 - name: seurat_scale_data
   owner: ebi-gxa
   revisions:
+  - 1a8e93921f01
   - 3d0bfc2a233e
   - 6166efaeb4a6
   tool_panel_section_id: hca_sc_seurat_tools
@@ -491,6 +502,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 4fff8ad1c76d
+  - bba8b14264c2
   tool_panel_section_id: hca_sc_seurat_tools
 - name: monocle3_create
   owner: ebi-gxa
