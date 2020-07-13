@@ -770,12 +770,14 @@ tools:
   - 32101a7373ae
   - 559fbff1f573
   - 66cdd8438ac6
+  - 87d54692a537
   - a31bc9849f91
   tool_panel_section_id: hca_sc_label_analysis_tools
 - name: ct_get_empirical_dist
   owner: ebi-gxa
   revisions:
   - 196cc72cebd1
+  - 36eab91e0ff5
   - 5bf2827cd314
   - 9d5e6a4ec5b5
   - ce70358b0fe3
@@ -784,6 +786,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 10889190fe31
+  - 424f8251a202
   - 71602426b328
   - 71c809e81f66
   - d15f7509077b
