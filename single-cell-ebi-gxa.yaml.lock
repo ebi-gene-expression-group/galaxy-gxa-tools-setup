@@ -729,6 +729,7 @@ tools:
   owner: bgruening
   revisions:
   - 0a5258e41227
+  - 53d74155bb52
   - 917f8e439160
   - e572598580c2
   tool_panel_section_label: RNA-Seq

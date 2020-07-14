@@ -38,6 +38,7 @@ tools:
   revisions:
   - 6b0ba6de1424
   - 7fdb9d1591e2
+  - b265be7af3db
   - e3d32471da11
   tool_panel_section_label: RNA-Seq
 - name: cutadapt
