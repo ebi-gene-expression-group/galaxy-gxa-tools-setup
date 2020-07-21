@@ -7,3 +7,7 @@ tools:
   - name: scanpy_plot
     owner: iuc
     tool_panel_section_id: 'hca_sc_scanpy_tools'
+
+  - name: anndata_manipulate
+    owner: iuc
+    tool_panel_section_id: 'hca_sc_scanpy_tools'
