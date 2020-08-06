@@ -13,3 +13,8 @@ tools:
   - 8599fd07d140
   - dbbe1ea8ecb1
   tool_panel_section_id: hca_sc_scanpy_tools
+- name: anndata_manipulate
+  owner: iuc
+  revisions:
+  - 43cb7b5a6fe7
+  tool_panel_section_id: hca_sc_scanpy_tools
