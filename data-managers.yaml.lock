@@ -52,6 +52,7 @@ tools:
   owner: iuc
   revisions:
   - 64deddb6a8ec
+  - 6c6c6df09e64
   - 6ef6520f14fc
   - f5eb9afa8f8a
   tool_panel_section_label: None

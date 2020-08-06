@@ -84,6 +84,7 @@ tools:
 - name: rgrnastar
   owner: iuc
   revisions:
+  - 5ec75f5dae3c
   - 850f3679b9b4
   - b9e04854e2bb
   - d5659efd66aa
