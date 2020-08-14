@@ -655,6 +655,7 @@ tools:
 - name: scmap_scmap_cell
   owner: ebi-gxa
   revisions:
+  - 1543a50e08c9
   - 19f2fc7a8920
   - 2b85cec412c3
   - 35d8f7d62659
@@ -671,6 +672,7 @@ tools:
   revisions:
   - 037b0e7a7606
   - 1989bd869cff
+  - 2a320bb37bf0
   - 40e10f3a1844
   - 49025c0cd5ca
   - 6651208d890b
@@ -865,6 +867,7 @@ tools:
 - name: scpred_eigen_decompose
   owner: ebi-gxa
   revisions:
+  - 18397dae3a15
   - 3867289e6c1a
   - 70e5a19d9d7e
   - c6fd7cbaf247
@@ -874,6 +877,7 @@ tools:
   revisions:
   - 2fa2f084ad32
   - 4a77d2091aec
+  - 826f41212307
   - db7ecc1aaf59
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_get_std_output
@@ -882,6 +886,7 @@ tools:
   - 138d00a58412
   - 156b1e9cc269
   - 43ce84bd1d9a
+  - 9f3ce66cd91f
   - a7bf1d2b310b
   - d276a8dd73c7
   tool_panel_section_id: hca_sc_scpred_tools
@@ -891,6 +896,7 @@ tools:
   - 051f5801c819
   - 1bc003e80986
   - c54f0e1a3bd8
+  - d071810dc6db
   - f0862eb4f999
   - fd06ab29487f
   tool_panel_section_id: hca_sc_scpred_tools
@@ -901,6 +907,7 @@ tools:
   - 03d1ed93e523
   - 46c2b1454118
   - b17acf485397
+  - b3c543769af9
   - ba53e46a4275
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_traint_test_split
@@ -910,12 +917,14 @@ tools:
   - 7aec34208f30
   - 8ec19f24fcf3
   - a6d66c9953ed
+  - bb71ba86e806
   tool_panel_section_id: hca_sc_scpred_tools
 - name: scpred_preprocess_data
   owner: ebi-gxa
   revisions:
   - 03b45c148df7
   - 82087ae9fe4e
+  - 9ce18a0e5cfd
   - ec6d9a9fb273
   - ecfdb9347edb
   tool_panel_section_id: hca_sc_scpred_tools
