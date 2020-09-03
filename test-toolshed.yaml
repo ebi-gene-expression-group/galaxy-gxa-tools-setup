@@ -1,0 +1,5 @@
+tools:
+- name: atlas_import_classifiers
+  owner: ebi-gxa
+  tool_panel_section_label: 'Get data'
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
