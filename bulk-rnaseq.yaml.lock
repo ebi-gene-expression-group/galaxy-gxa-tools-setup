@@ -4,6 +4,7 @@ tools:
   revisions:
   - eb35257d2e29
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: edger
   owner: iuc
   revisions:
@@ -11,28 +12,33 @@ tools:
   - 555659de7321
   - d79ed3ec25fe
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: limma_voom
   owner: iuc
   revisions:
   - 0921444c832d
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: qualimap2_bamqc
   owner: refinery-platform
   revisions:
   - a2438e0f1bbf
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deseq2
   owner: iuc
   revisions:
   - 0696db066a5b
   - 71bacea10eee
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_quant
   owner: iuc
   revisions:
   - 10c98fab6c5a
   - 60f888039fb2
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: salmon
   owner: bgruening
   revisions:
@@ -41,6 +47,7 @@ tools:
   - b265be7af3db
   - e3d32471da11
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cutadapt
   owner: lparsons
   revisions:
@@ -49,6 +56,7 @@ tools:
   - 660cffd8d92a
   - e4691e1589d3
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: multiqc
   owner: iuc
   revisions:
@@ -56,6 +64,7 @@ tools:
   - b2f1f75d49c4
   - bf675f34b056
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hisat2
   owner: iuc
   revisions:
@@ -63,11 +72,13 @@ tools:
   - 3fb01a8c902d
   - 61ee47027bd3
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tophat2
   owner: devteam
   revisions:
   - 16c4255042be
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sra_tools
   owner: iuc
   revisions:
@@ -82,6 +93,7 @@ tools:
   - c441583adae5
   - f5ea3ce9b9b0
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rgrnastar
   owner: iuc
   revisions:
@@ -90,17 +102,20 @@ tools:
   - b9e04854e2bb
   - d5659efd66aa
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_pseudo
   owner: iuc
   revisions:
   - 1c75aa5de15e
   - 5ae5c312d718
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rmarkdown_wgcna
   owner: mingchen0919
   revisions:
   - 05bcad4b5b4f
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: htseq_count
   owner: lparsons
   revisions:
@@ -108,12 +123,14 @@ tools:
   - 7f5a8d427b39
   - 916cb26bd9d3
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastqc
   owner: devteam
   revisions:
   - 3e1cdf5406db
   - e7b2202befea
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: featurecounts
   owner: iuc
   revisions:
@@ -121,6 +138,7 @@ tools:
   - a37612abf7f9
   - f3a5f075498f
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gtf2gene_list
   owner: ebi-gxa
   revisions:
@@ -132,6 +150,7 @@ tools:
   - b95e6a9bb15c
   - e255c0e5dfca
   tool_panel_section_label: Util
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: text_processing
   owner: bgruening
   revisions:
@@ -139,17 +158,20 @@ tools:
   - 9ff72e942410
   - fb4ff3c42cd3
   tool_panel_section_label: Util
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rseqc
   owner: nilesh
   revisions:
   - 1a052c827e88
   - f437057e46f1
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: package_qualimap_2_2
   owner: refinery-platform
   revisions:
   - bcc7b19f86fa
   tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_quality_filter
   owner: devteam
   revisions:
