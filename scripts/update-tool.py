@@ -37,13 +37,12 @@ def update_file(fn, owner=None, name=None, without=False):
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
         
-        if 'tool_shed_url' in tool and tool['tool_shed_url'] in ts:
-            toolshed = ts[tool['tool_shed_url']]
-        elif 'tool_shed_url' in tool and not tool['tool_shed_url'] in ts:
+        if 'tool_shed_url' in tool:
+          if not tool['tool_shed_url'] in ts:
             ts[tool['tool_shed_url']] = toolshed.ToolShedInstance(url='https://'+tool['tool_shed_url'])
-            toolshed = ts[tool['tool_shed_url']]
+          toolshed = ts[tool['tool_shed_url']]  
         else:
-            toolshed = ts[main]
+          toolshed = ts[main]
 
         try:
             revs = toolshed.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
