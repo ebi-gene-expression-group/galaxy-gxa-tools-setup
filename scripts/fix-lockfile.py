@@ -51,6 +51,8 @@ def update_file(fn, dry):
             new_tool.update({'tool_panel_section_id': tool['tool_panel_section_id']})
         if tool.get('tool_panel_section_label'):
             new_tool.update({'tool_panel_section_label': tool['tool_panel_section_label']})
+        if tool.get('tool_shed_url'):
+            new_tool.update({'tool_shed_url': tool['tool_shed_url']})    
 
         clean_lockfile['tools'].append(new_tool)
 
