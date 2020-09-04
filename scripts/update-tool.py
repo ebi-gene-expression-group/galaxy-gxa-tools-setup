@@ -9,7 +9,11 @@ import logging
 
 from bioblend import toolshed
 
-ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
+ts = dict()
+main = 'toolshed.g2.bx.psu.edu'
+test = 'testtoolshed.g2.bx.psu.edu'
+ts[main] = toolshed.ToolShedInstance(url='https://'+main)
+ts[test] = toolshed.ToolShedInstance(url='https://'+test)
 
 
 def update_file(fn, owner=None, name=None, without=False):
@@ -32,9 +36,16 @@ def update_file(fn, owner=None, name=None, without=False):
             continue
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
+        
+        if 'tool_shed_url' in tool:
+          if not tool['tool_shed_url'] in ts:
+            ts[tool['tool_shed_url']] = toolshed.ToolShedInstance(url='https://'+tool['tool_shed_url'])
+          toolshed = ts[tool['tool_shed_url']]  
+        else:
+          toolshed = ts[main]
 
         try:
-            revs = ts.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
+            revs = toolshed.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
         except Exception as e:
             print(e)
             continue
