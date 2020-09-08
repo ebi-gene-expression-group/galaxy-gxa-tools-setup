@@ -128,6 +128,7 @@ tools:
   - 9f0ca1641ab2
   - c1362eee9eee
   - c23d0ff783d4
+  - cf3fb754ddde
   - da8c130348b6
   - dcfb23758646
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -251,6 +252,7 @@ tools:
   - c63bc0b71865
   - dba78f1681b1
   - ddb20964072e
+  - f48cfaa2e515
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_plot_trajectory
   owner: ebi-gxa
@@ -276,6 +278,7 @@ tools:
   - 3ffd959f55f4
   - 572b6e3b2aff
   - 5fa923796ed3
+  - 5ff50f4a26cd
   - 741d50b6dc78
   - 7757f4b43174
   - b021ae78ccb4
@@ -348,6 +351,7 @@ tools:
   - 96af0059b974
   - a82c905e2c26
   - d929261bc28c
+  - dd27b39c5c12
   - f5bc7d1b32fd
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_run_paga
@@ -415,6 +419,7 @@ tools:
   - aa85725f43a2
   - b282c349bd67
   - c111d7d04f0b
+  - f53bb2c1fa07
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_scale_data
   owner: ebi-gxa
