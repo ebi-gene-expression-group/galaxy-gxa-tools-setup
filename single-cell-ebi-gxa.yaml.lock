@@ -112,6 +112,7 @@ tools:
   - aada17e5da75
   - c78c930e3263
   - c938bef2ca98
+  - e6c989a9211c
   - e7fd6981c0f0
   - fe740b19e3b9
   tool_panel_section_id: hca_sc_scanpy_tools
