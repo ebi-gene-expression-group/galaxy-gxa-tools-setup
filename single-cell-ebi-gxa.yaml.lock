@@ -103,6 +103,7 @@ tools:
   revisions:
   - 232937b5bb8f
   - 3bce5710a90b
+  - 3cf0177ed87e
   - 3d242b0d97d0
   - 4f9811ccc575
   - 53e6944bd162
@@ -163,6 +164,7 @@ tools:
 - name: scanpy_find_cluster
   owner: ebi-gxa
   revisions:
+  - 15e8a4c60418
   - 25e479cd340e
   - 2704d80b7e91
   - 2784759ad631
@@ -197,6 +199,7 @@ tools:
   - c18f446dcfbf
   - c608fd80ec15
   - c6fb86cc7de5
+  - cc776860fae1
   - f00adc96e0bf
   - f6291dbb3afc
   - fb9bd74c32b0
