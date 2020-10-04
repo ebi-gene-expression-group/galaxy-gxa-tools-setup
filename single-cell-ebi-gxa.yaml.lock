@@ -843,6 +843,7 @@ tools:
 - name: alevin
   owner: bgruening
   revisions:
+  - 04b494623f8e
   - 0a5258e41227
   - 53d74155bb52
   - 917f8e439160
