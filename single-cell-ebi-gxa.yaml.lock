@@ -205,6 +205,7 @@ tools:
   - c6fb86cc7de5
   - cc776860fae1
   - f00adc96e0bf
+  - f04dd4e5b6a7
   - f6291dbb3afc
   - fb9bd74c32b0
   tool_panel_section_id: hca_sc_scanpy_tools
