@@ -863,6 +863,11 @@ tools:
   - 917f8e439160
   - e572598580c2
   tool_panel_section_label: RNA-Seq
+- name: rna_starsolo
+  owner: iuc
+  revisions:
+  - e403d27e8f24
+  tool_panel_section_label: RNA-Seq
 - name: salmon_kallisto_mtx_to_10x
   owner: ebi-gxa
   revisions:
