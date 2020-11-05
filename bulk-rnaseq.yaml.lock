@@ -73,6 +73,7 @@ tools:
   - 0c16cad5e03b
   - 3fb01a8c902d
   - 61ee47027bd3
+  - a86e80d3c09c
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tophat2
