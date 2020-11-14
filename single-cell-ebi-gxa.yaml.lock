@@ -126,6 +126,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1b0fdf08a454
+  - 26a98de26847
   - 3c3c254c9deb
   - 3dcc1629e420
   - 598f6161a665
@@ -227,6 +228,7 @@ tools:
   - 7558a3d8338e
   - 7793c8284aa5
   - 7a68f44c866b
+  - 84711701573e
   - b089f4a55e6b
   - cb007db0857d
   - d88a29e2eba6
