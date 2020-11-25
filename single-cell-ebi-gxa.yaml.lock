@@ -89,6 +89,7 @@ tools:
   - 35422e51b804
   - 35ee5e3e87c1
   - 54f1212d26ac
+  - 6aa025ea64d3
   - 98f37271c17c
   - a4ad76e3dc4a
   - b8eb50bd397c
@@ -105,6 +106,7 @@ tools:
   revisions:
   - 087a7edb0995
   - 232937b5bb8f
+  - 2401808e20e8
   - 3bce5710a90b
   - 3cf0177ed87e
   - 3d242b0d97d0
@@ -137,6 +139,7 @@ tools:
   - 9b2072ee4bdd
   - 9c65f1de489b
   - 9f0ca1641ab2
+  - ba64b91ed2b9
   - c1362eee9eee
   - c23d0ff783d4
   - cf3fb754ddde
@@ -158,6 +161,7 @@ tools:
   - 77fbe74247c2
   - 7aebd6265a97
   - 88bccd53d18a
+  - a1698b43abeb
   - a797a810d7e9
   - bac969abf1c6
   - c678f671e151
@@ -180,6 +184,7 @@ tools:
   - 62d23f5d38f9
   - 6a9e2be28b07
   - 8abb1680e8ca
+  - 9e4f79e40b84
   - ab7a3bb8a622
   - b456d129066d
   - b45b85d5c7ec
@@ -202,6 +207,7 @@ tools:
   - 67fa4288eee5
   - 71668dd2d47b
   - 74100c9351bc
+  - 9fe7e2da8fe6
   - af5e4efa9e66
   - af9cf232d6c9
   - b5e8157dc20f
@@ -224,6 +230,7 @@ tools:
   - 321f1b073cbc
   - 478578da6fbf
   - 5663eb6b965c
+  - 5c62f39aab8f
   - '710530217502'
   - 7558a3d8338e
   - 7793c8284aa5
@@ -244,6 +251,7 @@ tools:
   - 1dda36e73482
   - 3636ec97f3af
   - 378ea34bbf2a
+  - 463d4fa8f5ec
   - 47c747351d62
   - 4a6b3778fcc4
   - 6aa97861fdfd
@@ -269,6 +277,7 @@ tools:
   - 8e72a9b68d9d
   - 93680e2ff8f4
   - ae4debc68f4a
+  - b9dd12ab0550
   - d574549f9dee
   - ec800d531617
   - f0dd61087af3
@@ -287,6 +296,7 @@ tools:
   - 49fe4e682059
   - 68e82882a8f9
   - 882f4671d686
+  - a8ef4bc35839
   - b2410da4e381
   - c63bc0b71865
   - dba78f1681b1
@@ -304,6 +314,7 @@ tools:
   - 1d0e587bdd60
   - 2d00acd70129
   - 3798ea6a5e21
+  - 3a00e9e50eb8
   - 4e666c43b6e3
   - 63cbe6d65e67
   - 746a0de8b12b
@@ -329,6 +340,7 @@ tools:
   - 8efba12e8f58
   - b021ae78ccb4
   - bd4a491baf39
+  - c8391a25dee3
   - ce87cc7d65ea
   - cf55e0e462da
   - d92e6f12b790
@@ -352,6 +364,7 @@ tools:
   - b174cb4cb89e
   - b8f8890d95e4
   - e277d77dc6da
+  - e51380afa61c
   - eb6935434c1f
   - eed0986f53c7
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -366,6 +379,7 @@ tools:
   - 47603f46d6d9
   - 4a53eb16b926
   - 713e94af9d6c
+  - 722ba62d7bb4
   - 8e45c89adab2
   - 900b3c31fd3a
   - a05d2553484e
@@ -390,6 +404,7 @@ tools:
   - 8a6860957c84
   - af4ee7300107
   - b1cb0c2831ea
+  - d49523477607
   - e82f42730fa1
   - ea6bea16d0e2
   - eb764ec05bb9
@@ -403,6 +418,7 @@ tools:
   - 425f2e046231
   - 4722394f6af9
   - 4c38558f0e7c
+  - 5d2c8acd2ae4
   - 5fb11df8f217
   - 646e7e3044ca
   - 6c40cc3e9dc0
@@ -418,6 +434,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 09c82810d14a
+  - 211fe30d83be
   - 3e53344e540d
   - 607408d09a36
   - 77bc9501765d
@@ -446,6 +463,7 @@ tools:
   - 7798c318e7d7
   - 7ee4417b24cc
   - 8b4dae3748d3
+  - 988edd5fa902
   - a8f94e4a2526
   - aee7b7f9cae3
   - c990e40fbd46
@@ -459,6 +477,7 @@ tools:
   - 091e5d709ef7
   - 2e74fd7b5f45
   - 3589dfaef3f6
+  - 384cacc40611
   - 45674f057a31
   - 4ed72fb8eaf8
   - 5d92e38da1ea
@@ -491,6 +510,7 @@ tools:
   - 88c1516e25e0
   - a5731f913326
   - aa85725f43a2
+  - abae3d11d920
   - b282c349bd67
   - c111d7d04f0b
   - f53bb2c1fa07
@@ -509,6 +529,7 @@ tools:
   - 83db723bc0e1
   - 87a02d83b6f5
   - 95887cb6859f
+  - 9664a6c00fd1
   - 96b851e96dd0
   - 9acb5f068e6b
   - c23efca79651
@@ -522,6 +543,7 @@ tools:
   - 0752a5c8a9da
   - 2472523c0c50
   - 27c74c83eae5
+  - 5c25b8a985e8
   - aaf4a7a3dd96
   - ced09c5acba5
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -529,6 +551,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 14076b38c3bb
+  - 2cef3539f420
   - 739f68e3cbca
   - 8b3a52fbb482
   - f1298838e93b
@@ -540,6 +563,7 @@ tools:
   - 7ae183da3f07
   - 873449082a29
   - dc7fa97154f1
+  - eb30e34367b1
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_integrate_bbknn
   owner: ebi-gxa
@@ -547,6 +571,7 @@ tools:
   - 032d52b00b7c
   - 0654c7737e2d
   - 26805c747e15
+  - 3803efa11152
   - c2be8a21eaa2
   - e6d5b3fed639
   tool_panel_section_id: hca_sc_scanpy_tools
