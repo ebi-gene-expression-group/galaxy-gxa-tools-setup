@@ -30,6 +30,7 @@ tools:
   revisions:
   - 0696db066a5b
   - 71bacea10eee
+  - de44f8eff84a
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_quant
