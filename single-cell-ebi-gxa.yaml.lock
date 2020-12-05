@@ -938,6 +938,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 00fbfac99d39
   - e403d27e8f24
   tool_panel_section_label: RNA-Seq
 - name: salmon_kallisto_mtx_to_10x
