@@ -17,4 +17,5 @@ tools:
   owner: iuc
   revisions:
   - 43cb7b5a6fe7
+  - b85871dd69f9
   tool_panel_section_id: hca_sc_scanpy_tools

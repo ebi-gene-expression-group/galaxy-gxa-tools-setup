@@ -44,6 +44,7 @@ tools:
   - 0bed5ee5b74a
   - 2445a874543a
   - 6524e573d9c2
+  - 6a6a2e4cc222
   - 744f607fac50
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
