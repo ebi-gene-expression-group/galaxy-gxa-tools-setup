@@ -941,6 +941,7 @@ tools:
   revisions:
   - 00fbfac99d39
   - e403d27e8f24
+  - ec9cbd6b9a49
   tool_panel_section_label: RNA-Seq
 - name: salmon_kallisto_mtx_to_10x
   owner: ebi-gxa
