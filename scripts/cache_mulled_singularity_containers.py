@@ -28,7 +28,7 @@ def set_logging_level(debug=False):
 def main():
     """
     Downloads singularity containers on a Galaxy instance which is configured
-    to use such dependency resolvers (mulles_singularity and cached_mulled_singularity).
+    to use such dependency resolvers (mulled_singularity and cached_mulled_singularity).
 
     It will request the resolution of tools to containers from the instance,
     and then for all mulled_singularity resolved tools that are pointing to
