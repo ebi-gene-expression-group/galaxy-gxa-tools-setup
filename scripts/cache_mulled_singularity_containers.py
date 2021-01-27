@@ -38,7 +38,7 @@ def main():
     """
     args = get_args()
     set_logging_level(debug=args.debug)
-    gi = GalaxyInstance(url=args.url, key=arg.key)
+    gi = GalaxyInstance(url=args.url, key=args.key)
 
     tools_deps = gi.make_get_request(gi.base_url + "/api/container_resolvers/toolbox").json()
 
