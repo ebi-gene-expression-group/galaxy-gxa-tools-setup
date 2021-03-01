@@ -52,16 +52,18 @@ def main():
                     container2tool_id[tool_deps['status']['container_description']['identifier']] = tool_deps['tool_id']
 
     downloads = 0
+    tools = list()
     for cont in container2tool_id:
         logging.info(f"Retrieving container {cont}...")
-        tool_id = container2tool_id[cont]
-        try:
-            result = gi.make_post_request(url=gi.base_url + "/api/container_resolvers/toolbox/install",
-                                          payload={ "tool_ids": [tool_id]})
-        except ConnectionError as e:
-            logging.warning("Connection interrupted... waiting for potential download before proceeding with next container.")
-            time.sleep(20)
+        tools.append(container2tool_id[cont])
         downloads += 1
+
+    try:
+        result = gi.make_post_request(url=gi.base_url + "/api/container_resolvers/toolbox/install",
+                                  payload={ "tool_ids": tools})
+    except ConnectionError as e:
+        logging.warning("Connection interrupted... waiting for potential download before proceeding with next container.")
+        time.sleep(20)
 
 
     logging.info(f"Downloaded {downloads} containers.")
