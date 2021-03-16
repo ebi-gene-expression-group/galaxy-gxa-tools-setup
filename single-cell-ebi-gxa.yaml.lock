@@ -941,6 +941,7 @@ tools:
   owner: iuc
   revisions:
   - 00fbfac99d39
+  - a6fba3d92531
   - e403d27e8f24
   - ec9cbd6b9a49
   tool_panel_section_label: RNA-Seq
