@@ -939,6 +939,7 @@ tools:
   - 53d74155bb52
   - 917f8e439160
   - e572598580c2
+  - ecb9ea6269ee
   tool_panel_section_label: RNA-Seq
 - name: rna_starsolo
   owner: iuc
