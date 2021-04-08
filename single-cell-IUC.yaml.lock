@@ -22,3 +22,8 @@ tools:
   - 8db95f488f0f
   - b85871dd69f9
   tool_panel_section_id: hca_sc_scanpy_tools
+- name: anndata_inspect
+  owner: iuc
+  revisions:
+  - 383dcb0500f9
+  tool_panel_section_id: hca_sc_scanpy_tools
