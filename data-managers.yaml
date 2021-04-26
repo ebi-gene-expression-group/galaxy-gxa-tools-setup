@@ -39,3 +39,8 @@ tools:
   owner: iuc
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: collection_element_identifiers
+  owner: iuc
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+  
