@@ -1,6 +1,3 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
-install_tool_dependencies: false
 tools:
 - name: dropletutils_read_10x
   owner: ebi-gxa

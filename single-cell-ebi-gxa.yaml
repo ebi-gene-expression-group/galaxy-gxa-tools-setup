@@ -1,14 +1,9 @@
----
-install_repository_dependencies: true
-install_resolver_dependencies: true
-install_tool_dependencies: false
-
 # https://raw.githubusercontent.com/usegalaxy-eu/usegalaxy-eu-tools/cb6d5ae0800990fa5756646c7f466df6ee8a0ad5/single-cell-ebi-gxa.yaml
 tools:
   - name: dropletutils_read_10x
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
-    
+
   - name: dropletutils_empty_drops
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
@@ -52,7 +47,7 @@ tools:
   - name: sc3_prepare
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_sc3_tools'
-    
+
   - name: anndata_ops
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scanpy_tools'
@@ -136,19 +131,19 @@ tools:
   - name: scanpy_scale_data
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scanpy_tools'
-    
+
   - name: scanpy_integrate_combat
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scanpy_tools'
-  
+
   - name: scanpy_integrate_harmony
     owner: ebi-gxa
-    tool_panel_section_id: 'hca_sc_scanpy_tools' 
-    
+    tool_panel_section_id: 'hca_sc_scanpy_tools'
+
   - name: scanpy_integrate_mnn
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scanpy_tools'
-    
+
   - name: scanpy_integrate_bbknn
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scanpy_tools'
@@ -200,7 +195,7 @@ tools:
   - name: seurat_scale_data
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_seurat_tools'
-    
+
   - name: seurat_find_neighbours
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_seurat_tools'
@@ -224,7 +219,7 @@ tools:
   - name: monocle3_partition
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_monocle3_tools'
-    
+
   - name: monocle3_topmarkers
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_monocle3_tools'
@@ -252,11 +247,11 @@ tools:
   - name: sccaf_asses_merger
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_sccaf_tools'
-    
+
   - name: sccaf_regress_out
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_sccaf_tools'
-    
+
   - name: scmap_preprocess_sce
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scmap_tools'
@@ -276,7 +271,7 @@ tools:
   - name: scmap_scmap_cluster
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scmap_tools'
- 
+
   - name: scmap_preprocess_sce
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scmap_tools'
@@ -308,15 +303,15 @@ tools:
   - name: alevin
     owner: bgruening
     tool_panel_section_label: RNA-Seq
-    
+
   - name: rna_starsolo
     owner: iuc
     tool_panel_section_label: RNA-Seq
-    
+
   - name: salmon_kallisto_mtx_to_10x
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
-    
+
   - name: droplet_barcode_plot
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_utils_viz'
@@ -388,7 +383,7 @@ tools:
   - name: scpred_predict_labels
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scpred_tools'
-    
+
   - name: scpred_preprocess_data
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scpred_tools'
@@ -404,7 +399,7 @@ tools:
   - name: scpred_preprocess_data
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scpred_tools'
-    
+
   - name: scater_read_10x_results
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scater_tools'
