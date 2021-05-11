@@ -1,4 +1,5 @@
 from bioblend.galaxy import GalaxyInstance
+from bioblend import ConnectionError
 import argparse
 import os
 import logging
