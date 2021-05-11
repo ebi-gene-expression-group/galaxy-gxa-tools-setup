@@ -63,7 +63,6 @@ def main():
             time.sleep(20)
         downloads += 1
 
-
     logging.info(f"Downloaded {downloads} containers.")
 
 

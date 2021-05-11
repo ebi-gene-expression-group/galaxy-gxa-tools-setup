@@ -3,10 +3,12 @@ tools:
   owner: devteam
   revisions:
   - 115f3e61b012
+  - 1586b111d2a3
   - 1c0f8e9d87c6
   - 847c9ef56a52
   - d1d5feb31804
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
   revisions:
@@ -14,44 +16,59 @@ tools:
   - 4d3eff1bc421
   - b1bc53e9bbc5
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_fetch_gff
   owner: ieguinoa
   revisions:
   - 0bdfe2e85fb0
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_hisat2_index_builder
   owner: iuc
   revisions:
   - 8eac26f44d29
+  - a04cebcd77f4
   - d210e1f185bd
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_kallisto_index_builder
   owner: iuc
   revisions:
+  - 18e2dd472525
   - 6843a0db2da0
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_manual
   owner: iuc
   revisions:
   - 0bed5ee5b74a
+  - 2445a874543a
   - 6524e573d9c2
+  - 6a6a2e4cc222
   - 744f607fac50
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_salmon_index_builder
   owner: iuc
   revisions:
   - 57274fe5e01a
+  - 6437fc47878f
   - 6b0f2bdcc1b7
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_sortmerna_database_downloader
   owner: rnateam
   revisions:
   - 7d2252852f96
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_star_index_builder
   owner: iuc
   revisions:
   - 64deddb6a8ec
+  - 6c6c6df09e64
   - 6ef6520f14fc
+  - d3879aceba04
   - f5eb9afa8f8a
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
