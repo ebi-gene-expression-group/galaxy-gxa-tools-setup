@@ -18,6 +18,7 @@ tools:
   owner: iuc
   revisions:
   - 0921444c832d
+  - 58c35179ebf0
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: qualimap2_bamqc
