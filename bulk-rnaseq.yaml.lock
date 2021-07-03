@@ -63,6 +63,7 @@ tools:
   - 093678460093
   - 104d86c98776
   - 288f97432497
+  - 4e5056fefd88
   - 660cffd8d92a
   - c4b82dce8335
   - e4691e1589d3
@@ -117,6 +118,7 @@ tools:
 - name: rgrnastar
   owner: iuc
   revisions:
+  - 44959aa06aeb
   - 5ec75f5dae3c
   - 7ed2edc1337f
   - 850f3679b9b4
