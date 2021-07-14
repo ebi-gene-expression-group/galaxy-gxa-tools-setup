@@ -162,6 +162,7 @@ tools:
   revisions:
   - 90d16db017d7
   - a37612abf7f9
+  - ce44c6f2ba38
   - ea04b737afa0
   - f3a5f075498f
   tool_panel_section_label: RNA-Seq
