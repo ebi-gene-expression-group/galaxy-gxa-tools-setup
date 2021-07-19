@@ -1,0 +1,11 @@
+tools:
+- name: compose_text_param
+  owner: iuc
+  revisions:
+  - e188c9826e0f
+  tool_panel_section_label: Text Manipulation
+- name: ega_download_client
+  owner: iuc
+  revisions:
+  - caf213d51d6c
+  tool_panel_section_label: Get Data
