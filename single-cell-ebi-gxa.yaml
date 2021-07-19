@@ -423,3 +423,7 @@ tools:
   - name: scater_calculate_cpm
     owner: ebi-gxa
     tool_panel_section_id: 'hca_sc_scater_tools'
+    
+  - name: column_arrange_by_header
+    owner: bgruening
+    tool_panel_section_id: 'textutil'
