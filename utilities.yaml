@@ -2,3 +2,7 @@ tools:
   - name: compose_text_param
     owner: iuc
     tool_panel_section_label: 'Text Manipulation'
+  - name: ega_download_client
+    owner: iuc
+    tool_panel_section_label: 'Get Data'
+    
