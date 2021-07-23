@@ -92,6 +92,7 @@ tools:
   - 53a251c6d991
   - 54f1212d26ac
   - 6aa025ea64d3
+  - 890fb06a2893
   - 98f37271c17c
   - a4ad76e3dc4a
   - b8eb50bd397c
@@ -120,6 +121,7 @@ tools:
   - 6b2673e1f4c6
   - 75240f9a8c96
   - 7ad420b1be89
+  - a30d21fd5319
   - a57b128ea4f6
   - aada17e5da75
   - c42c2b540ced
@@ -137,6 +139,7 @@ tools:
   - 26a98de26847
   - 3c3c254c9deb
   - 3dcc1629e420
+  - 55ccc0a121bc
   - 598f6161a665
   - 642938f557e1
   - 7fd39eb52f38
@@ -177,6 +180,7 @@ tools:
   - d1b97a5d5a8d
   - d82d999fa716
   - da2808112bb4
+  - da611a744112
   - f1e4de78d768
   - fa6c08064fc1
   - fc5b3e76131b
@@ -198,6 +202,7 @@ tools:
   - 8abb1680e8ca
   - 9e4f79e40b84
   - ab7a3bb8a622
+  - ad6995afd2e6
   - b456d129066d
   - b45b85d5c7ec
   - b531acda966c
@@ -216,6 +221,7 @@ tools:
   - 1670af5eee46
   - 23939bfeee92
   - 377224a3cd1d
+  - 49653e680ea4
   - 615a46c220f0
   - 67fa4288eee5
   - 7042ce140caa
@@ -244,6 +250,7 @@ tools:
   - 258e13397a8a
   - 305d0cbe0ffd
   - 321f1b073cbc
+  - 4667fe07bd68
   - 478578da6fbf
   - 5663eb6b965c
   - 5c62f39aab8f
@@ -275,6 +282,7 @@ tools:
   - 4a6b3778fcc4
   - 6aa97861fdfd
   - 7852b823ad45
+  - 8d9c22419c56
   - 9681ec095ed5
   - 978bd87a87c2
   - 9e42d8795385
@@ -293,6 +301,7 @@ tools:
   - 4bb2ca8e2bd3
   - 645f12f44a6d
   - 7c4d44c14ceb
+  - 81069608d570
   - 877471253a87
   - 8e72a9b68d9d
   - 93680e2ff8f4
@@ -315,6 +324,7 @@ tools:
   - 278dfcba81fd
   - 452e0f19c2a2
   - 49fe4e682059
+  - 56d22aa6cb3b
   - 68e82882a8f9
   - 7c601934578b
   - 882f4671d686
@@ -347,6 +357,7 @@ tools:
   - 8e2fc37c3e0c
   - c646bd10dcab
   - c99f397434a3
+  - d8423c3f869d
   - e8e54d565c92
   - eb10fa649a7e
   - f76e8237073a
@@ -371,6 +382,7 @@ tools:
   - c8391a25dee3
   - ce87cc7d65ea
   - cf55e0e462da
+  - d253d69ff19f
   - d92e6f12b790
   - f180f7230cdb
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -381,6 +393,7 @@ tools:
   - 203fac3b1ba3
   - 2131ec9d52e2
   - 271dc9aedb27
+  - 36daab33aecf
   - 59d3ce1cfaa8
   - 5d112debfa2e
   - 63e18d37228d
@@ -418,6 +431,7 @@ tools:
   - c869331377bf
   - c9663294b25f
   - cae3f94c5b4c
+  - e3123e51e781
   - f10df597ed6d
   - f5ebfe244c14
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -434,6 +448,7 @@ tools:
   - 730d098a9f23
   - 820493156c4a
   - 8a6860957c84
+  - 8ca1de77945e
   - af4ee7300107
   - b1cb0c2831ea
   - b2b2211da550
@@ -447,6 +462,7 @@ tools:
 - name: scanpy_run_fdg
   owner: ebi-gxa
   revisions:
+  - 07e0163086ad
   - 14866357fbec
   - 260c8932c0b7
   - 2ab5f5682507
@@ -476,6 +492,7 @@ tools:
   - 3e53344e540d
   - 607408d09a36
   - 77bc9501765d
+  - 7ea07327147a
   - 8f2237bedbae
   - a12f0d1b0fac
   - a1a7650c5cf2
@@ -497,6 +514,7 @@ tools:
   - 242cf7e1fd0c
   - 2dd53b944e78
   - 3e7ede8e1c94
+  - 3ee74b58c72d
   - 4a54b92af339
   - 5063cd7f8c89
   - 544d45fca48f
@@ -529,6 +547,7 @@ tools:
   - af9b447bcde8
   - b5e1939cc155
   - b946c0c60d4c
+  - c4868b59cf7f
   - c4a20a57d825
   - d525452f8f2f
   - d85277b71596
@@ -560,6 +579,7 @@ tools:
   - e31937baa330
   - f53bb2c1fa07
   - fb50577dc31d
+  - fe562424a0a6
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_scale_data
   owner: ebi-gxa
@@ -572,6 +592,7 @@ tools:
   - 3b50db496591
   - 47fb7f4cd00a
   - 4c73b070cbff
+  - 5605f8452eb3
   - 796cd21bb304
   - 83db723bc0e1
   - 87a02d83b6f5
@@ -590,6 +611,7 @@ tools:
   - 0752a5c8a9da
   - 2472523c0c50
   - 27c74c83eae5
+  - 2de673ef8c13
   - 5c25b8a985e8
   - 7322e7583847
   - 7a573108f5f4
@@ -605,12 +627,14 @@ tools:
   - 3f61bf17ca50
   - 739f68e3cbca
   - 8b3a52fbb482
+  - bf824765919c
   - f1298838e93b
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_integrate_mnn
   owner: ebi-gxa
   revisions:
   - 1504334ef569
+  - 4951ff9f43db
   - 5bb009f95e03
   - 7ae183da3f07
   - 873449082a29
@@ -627,6 +651,7 @@ tools:
   - 3803efa11152
   - 3d9322fd5716
   - 89eef46fce58
+  - 932f0f51074c
   - c2be8a21eaa2
   - e6d5b3fed639
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -989,6 +1014,7 @@ tools:
   - 0a5258e41227
   - 53d74155bb52
   - 917f8e439160
+  - e4c01dcece8b
   - e572598580c2
   - ecb9ea6269ee
   tool_panel_section_label: RNA-Seq
