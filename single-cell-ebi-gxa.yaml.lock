@@ -657,6 +657,16 @@ tools:
   - c2be8a21eaa2
   - e6d5b3fed639
   tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_multiplet_scrublet
+  owner: ebi-gxa
+  revisions:
+  - 9f8381c5d808
+  tool_panel_section_id: hca_sc_scanpy_tools
+- name: scanpy_plot_scrublet
+  owner: ebi-gxa
+  revisions:
+  - 57310f30da92
+  tool_panel_section_id: hca_sc_scanpy_tools
 - name: seurat_create_seurat_object
   owner: ebi-gxa
   revisions:
