@@ -93,6 +93,7 @@ tools:
   - 54f1212d26ac
   - 6aa025ea64d3
   - 890fb06a2893
+  - 93ecc487a7d1
   - 98f37271c17c
   - a4ad76e3dc4a
   - b8eb50bd397c
@@ -120,6 +121,7 @@ tools:
   - 5ec3b715809c
   - 6b2673e1f4c6
   - 75240f9a8c96
+  - 7779b9dcf040
   - 7ad420b1be89
   - a30d21fd5319
   - a57b128ea4f6
@@ -138,6 +140,7 @@ tools:
   revisions:
   - 1b0fdf08a454
   - 26a98de26847
+  - 361608369dda
   - 3c3c254c9deb
   - 3dcc1629e420
   - 55ccc0a121bc
@@ -165,6 +168,7 @@ tools:
   - 083418c42b90
   - 0bba942e0869
   - 228a51c5bc35
+  - 23d838d1569d
   - 303c559f4e1f
   - 4bc377096eea
   - 6953c7e519cd
@@ -214,10 +218,12 @@ tools:
   - e4006a341f74
   - ed07813a7266
   - ee181563bae7
+  - fc4b3b46dc9d
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_find_markers
   owner: ebi-gxa
   revisions:
+  - 0a8e527d1517
   - 0d63195a9b9f
   - 1670af5eee46
   - 23939bfeee92
@@ -248,6 +254,7 @@ tools:
   revisions:
   - 144c405d3ca4
   - 1c59a010bb44
+  - 24fca62faafd
   - 258e13397a8a
   - 305d0cbe0ffd
   - 321f1b073cbc
@@ -275,6 +282,7 @@ tools:
   - 18ce7b88ff5d
   - 1dda36e73482
   - 28ab1cdd0cf5
+  - 28b1546857b0
   - 3636ec97f3af
   - 378ea34bbf2a
   - 3a4564b9d685
@@ -309,6 +317,7 @@ tools:
   - 9dbd170bec14
   - ae4debc68f4a
   - b9dd12ab0550
+  - d4c9061c8fef
   - d574549f9dee
   - ec800d531617
   - f0dd61087af3
@@ -321,6 +330,7 @@ tools:
   revisions:
   - 068c4bf0e0db
   - 109cfa259d8b
+  - 1be0fc4d8654
   - 210026a1a50a
   - 278dfcba81fd
   - 452e0f19c2a2
@@ -358,6 +368,7 @@ tools:
   - 8e2fc37c3e0c
   - c646bd10dcab
   - c99f397434a3
+  - d3df472a21dc
   - d8423c3f869d
   - e8e54d565c92
   - eb10fa649a7e
@@ -368,6 +379,7 @@ tools:
   revisions:
   - 1b84ae7595ed
   - 247e401d454f
+  - 287503c35cb4
   - 3931e8e8d678
   - 3faf577f3e40
   - 3ffd959f55f4
@@ -407,6 +419,7 @@ tools:
   - 9e92447122a6
   - b174cb4cb89e
   - b8f8890d95e4
+  - d18ed15697bb
   - e277d77dc6da
   - e51380afa61c
   - eb6935434c1f
@@ -424,6 +437,7 @@ tools:
   - 4a53eb16b926
   - 5603d3e55053
   - 6586bfb21f41
+  - 6a6364b488db
   - 713e94af9d6c
   - 722ba62d7bb4
   - 8e45c89adab2
@@ -440,6 +454,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 0e264c40fd06
+  - 12f67b0c1a94
   - 17eca8cc832a
   - 1ab80fc6f667
   - 202e28c59b59
@@ -473,6 +488,7 @@ tools:
   - 5d2c8acd2ae4
   - 5fb11df8f217
   - 646e7e3044ca
+  - 65c3ec07502b
   - 6c40cc3e9dc0
   - 6f84e4382fb2
   - 885681d258b4
@@ -492,6 +508,7 @@ tools:
   - 211fe30d83be
   - 3e53344e540d
   - 607408d09a36
+  - 6d4f88995e40
   - 77bc9501765d
   - 7ea07327147a
   - 8f2237bedbae
@@ -511,6 +528,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 04bdc69f00d7
+  - 0cf90e01d9f8
   - 1618435e2a33
   - 242cf7e1fd0c
   - 2dd53b944e78
@@ -539,6 +557,7 @@ tools:
   - 2e74fd7b5f45
   - 3589dfaef3f6
   - 384cacc40611
+  - 3fb53f5e46ea
   - 45674f057a31
   - 4ed72fb8eaf8
   - 5d92e38da1ea
@@ -572,6 +591,7 @@ tools:
   - 62c31dc2e5d5
   - 676e2964920a
   - 6eb7a2e37adf
+  - 767a675b5254
   - 88c1516e25e0
   - a5731f913326
   - aa85725f43a2
@@ -604,6 +624,7 @@ tools:
   - 9acb5f068e6b
   - c23efca79651
   - c8f196ccf34a
+  - e2d0dc8a50ca
   - ea8fd43b7e1e
   - eabf8e76e007
   tool_panel_section_id: hca_sc_scanpy_tools
@@ -614,6 +635,7 @@ tools:
   - 2472523c0c50
   - 27c74c83eae5
   - 2de673ef8c13
+  - 352cdf3b2f75
   - 5c25b8a985e8
   - 7322e7583847
   - 7a573108f5f4
@@ -627,6 +649,7 @@ tools:
   - 1d92cea73607
   - 2cef3539f420
   - 3f61bf17ca50
+  - 6903bc865d63
   - 739f68e3cbca
   - 8b3a52fbb482
   - bf824765919c
@@ -640,6 +663,7 @@ tools:
   - 5bb009f95e03
   - 7ae183da3f07
   - 873449082a29
+  - 9a2f72d7dbd2
   - b202e078a83f
   - dc7fa97154f1
   - eb30e34367b1
@@ -654,17 +678,20 @@ tools:
   - 3d9322fd5716
   - 89eef46fce58
   - 932f0f51074c
+  - 9d76c3d6dff6
   - c2be8a21eaa2
   - e6d5b3fed639
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_multiplet_scrublet
   owner: ebi-gxa
   revisions:
+  - 70cb0596ffef
   - 9f8381c5d808
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: scanpy_plot_scrublet
   owner: ebi-gxa
   revisions:
+  - 4a74b45c1ce4
   - 57310f30da92
   tool_panel_section_id: hca_sc_scanpy_tools
 - name: seurat_create_seurat_object
