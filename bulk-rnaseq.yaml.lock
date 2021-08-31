@@ -164,6 +164,7 @@ tools:
 - name: featurecounts
   owner: iuc
   revisions:
+  - 7db9d3ea71c9
   - 90d16db017d7
   - a37612abf7f9
   - ce44c6f2ba38
