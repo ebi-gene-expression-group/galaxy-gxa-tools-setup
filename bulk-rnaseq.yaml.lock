@@ -122,6 +122,7 @@ tools:
 - name: rgrnastar
   owner: iuc
   revisions:
+  - 4074fc1940e2
   - 44959aa06aeb
   - 5ec75f5dae3c
   - 7ed2edc1337f
