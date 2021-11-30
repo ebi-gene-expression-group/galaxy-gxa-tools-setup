@@ -13,6 +13,7 @@ tools:
   - 555659de7321
   - 6e53e565fc6a
   - d79ed3ec25fe
+  - df0c8d0a5992
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: limma_voom
@@ -21,6 +22,7 @@ tools:
   - 0921444c832d
   - 58c35179ebf0
   - 708348a17fa1
+  - e827f9aae031
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: qualimap2_bamqc
@@ -36,6 +38,7 @@ tools:
   - 6a3a025714d3
   - 71bacea10eee
   - 7ff33c2d525b
+  - cd9874cb9019
   - d027d1f4984e
   - de44f8eff84a
   tool_panel_section_label: RNA-Seq
