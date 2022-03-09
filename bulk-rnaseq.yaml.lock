@@ -258,3 +258,15 @@ tools:
   - 8050e091e99b
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_filter_n
+  owner: ebi-gxa
+  revisions:
+  - df87d29fac7f
+  tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_trim_poly_at
+  owner: ebi-gxa
+  revisions:
+  - ebca4912eabe
+  tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
