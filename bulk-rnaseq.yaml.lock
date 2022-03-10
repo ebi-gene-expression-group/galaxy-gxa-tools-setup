@@ -270,3 +270,9 @@ tools:
   - ebca4912eabe
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: atlas_fastq_provider
+  owner: ebi-gxa
+  revisions:
+  - 22ce1e7f1aaa
+  tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
