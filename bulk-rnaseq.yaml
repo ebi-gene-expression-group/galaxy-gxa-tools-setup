@@ -127,3 +127,7 @@ tools:
   owner: ebi-gxa
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_pair
+  owner: ebi-gxa
+  tool_panel_section_label: RNA-Seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
