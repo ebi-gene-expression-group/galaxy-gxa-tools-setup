@@ -1172,6 +1172,7 @@ tools:
   - 17f7e1e51fad
   - 5675dc87bb8d
   - 60fa6080f86f
+  - 88f5a0a6a818
   - cd6007b47199
   - e42c217a450f
   tool_panel_section_id: hca_sc_utils_viz

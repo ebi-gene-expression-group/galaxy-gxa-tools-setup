@@ -41,6 +41,7 @@ tools:
   - 6a3a025714d3
   - 71bacea10eee
   - 7ff33c2d525b
+  - 8fe98f7094de
   - cd9874cb9019
   - d027d1f4984e
   - de44f8eff84a
@@ -75,6 +76,7 @@ tools:
   - 44e2cc14f75b
   - 48f587c13075
   - 4e5056fefd88
+  - 5915ea1ec9b1
   - 660cffd8d92a
   - c053d4cad713
   - c4b82dce8335
@@ -106,6 +108,7 @@ tools:
   - 6c19daec423d
   - a86e80d3c09c
   - d4b55e2beb12
+  - f4af63aaf57a
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tophat2
@@ -244,12 +247,14 @@ tools:
   owner: devteam
   revisions:
   - cd659e8cc5fa
+  - f6877ad76b00
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_refgenie_pull
   owner: blankenberglab
   revisions:
   - 2cb1863cd236
+  - b2fa406276e7
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_trimmer_by_quality
@@ -280,5 +285,6 @@ tools:
   owner: iuc
   revisions:
   - 0dbf49c414ae
+  - 5826298f6a73
   tool_panel_section_label: RNA-Seq
   tool_shed_url: toolshed.g2.bx.psu.edu
