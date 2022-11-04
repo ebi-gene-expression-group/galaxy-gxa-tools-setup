@@ -249,6 +249,7 @@ tools:
 - name: bowtie2
   owner: devteam
   revisions:
+  - 03e9b2fbc005
   - cd659e8cc5fa
   - f6877ad76b00
   tool_panel_section_label: Mapping
