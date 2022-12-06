@@ -1156,6 +1156,7 @@ tools:
   - 917f8e439160
   - e4c01dcece8b
   - e572598580c2
+  - e661a3269313
   - ecb9ea6269ee
   tool_panel_section_label: RNA-Seq
 - name: rna_starsolo
