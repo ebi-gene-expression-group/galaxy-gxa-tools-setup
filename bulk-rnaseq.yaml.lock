@@ -146,6 +146,7 @@ tools:
   revisions:
   - 4074fc1940e2
   - 44959aa06aeb
+  - 4df95e2d7f61
   - 5ec75f5dae3c
   - 7ed2edc1337f
   - 850f3679b9b4
@@ -230,6 +231,7 @@ tools:
   revisions:
   - 1421603cc95b
   - 1a052c827e88
+  - 473382134e56
   - 5968573462fa
   - dbedfc5f5a3c
   - f437057e46f1
